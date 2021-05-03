@@ -5,3 +5,10 @@
   font-weight: 300;
   margin: 0;
 }
+
+@media screen and (min-width: 320px) and (max-width: 410px)  {
+  .calendar-card__name {
+    font-size: 19px;
+    line-height: 23px;
+  }
+}

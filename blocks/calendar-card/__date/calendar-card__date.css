@@ -7,3 +7,10 @@
   font-style: normal;
   letter-spacing: -2px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 410px)  {
+  .calendar-card__date {
+    font-size: 60px;
+    line-height: 60px;
+  }
+}
