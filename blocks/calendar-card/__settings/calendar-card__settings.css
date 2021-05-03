@@ -1,0 +1,11 @@
+.calendar-card__settings {
+  background-image: url('/images/buttonsSettings.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fff;
+  border-radius: 100px;
+  width: 48px;
+  height: 48px;
+  border: 1px #224CFF solid;
+  padding: 13px;
+}

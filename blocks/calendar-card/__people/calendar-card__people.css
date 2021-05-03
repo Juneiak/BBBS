@@ -1,0 +1,8 @@
+.calendar-card__people {
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #464646;
+  font-family: PT Root, Arial, Helvetica, sans-serif;
+}

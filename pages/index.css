@@ -1,0 +1,18 @@
+@import url(../vendor/normalize.css);
+@import url(../fonts/inter.css);
+
+/* calendar-card */
+@import url(../blocks/calendar-card/calendar-card.css);
+@import url(../blocks/calendar-card/__header/calendar-card__header.css);
+@import url(../blocks/calendar-card/__main/calendar-card__main.css);
+@import url(../blocks/calendar-card/__people/calendar-card__people.css);
+@import url(../blocks/calendar-card/__month/calendar-card__month.css);
+@import url(../blocks/calendar-card/__name/calendar-card__name.css);
+@import url(../blocks/calendar-card/__date/calendar-card__date.css);
+@import url(../blocks/calendar-card/__info/calendar-card__info.css);
+@import url(../blocks/calendar-card/__time/calendar-card__time.css);
+@import url(../blocks/calendar-card/__address/calendar-card__address.css);
+@import url(../blocks/calendar-card/__actions/calendar-card__actions.css);
+@import url(../blocks/calendar-card/__submit/calendar-card__submit.css);
+@import url(../blocks/calendar-card/__settings/calendar-card__settings.css);
+@import url(../blocks/calendar-card/__places/calendar-card__places.css);

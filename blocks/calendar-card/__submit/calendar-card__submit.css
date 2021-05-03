@@ -1,0 +1,12 @@
+.calendar-card__submit {
+  border-radius: 100px;
+  border: 1px #224CFF solid;
+  padding: 13px;
+  color: #224CFF;
+  letter-spacing: 0.2px;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  background-color: #fff;
+  font-family: Proto Grotesk Web, Arial, Helvetica, sans-serif;
+}
