@@ -18,7 +18,6 @@
 
 @font-face {
   font-family: 'Proto Grotesk Web';
-  src: url('ProtoGroteskWeb-Regular.eot');
   src: url('ProtoGroteskWeb-Regular.woff2') format('woff2'),
       url('ProtoGroteskWeb-Regular.woff') format('woff');
   font-weight: normal;
@@ -27,7 +26,6 @@
 
 @font-face {
   font-family: 'Proto Grotesk Web';
-  src: url('ProtoGroteskWeb-Bold.eot');
   src: url('ProtoGroteskWeb-Bold.woff2') format('woff2'),
       url('ProtoGroteskWeb-Bold.woff') format('woff');
   font-weight: bold;
