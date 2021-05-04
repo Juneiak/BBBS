@@ -24,3 +24,12 @@ plan
      git checkout main
      git pull origin main
    ```
+
+
+## how to switch branch
+  ```
+    git checkout plan
+    git checkout main
+    git checkout gh-pages
+  ```
+
