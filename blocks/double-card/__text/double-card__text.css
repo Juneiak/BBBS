@@ -1,0 +1,8 @@
+.double-card__text {
+  font-family: PTRootUIWebRegular, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0 30px;
+}
