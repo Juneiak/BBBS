@@ -1,0 +1,8 @@
+.footer__nav-section {
+  grid-area: navigation;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: stretch;
+}

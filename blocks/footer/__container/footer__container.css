@@ -1,0 +1,28 @@
+.footer__container {
+  display: grid;
+  width: 1024px;
+  margin: auto;
+
+  grid-template-columns: repeat(3, minmax(min-content, max-content));
+  grid-template-rows:  repeat(3, minmax(min-content, max-content));
+  grid-gap: 20px;
+  grid-template-areas:
+    "logo      donate    navigation"
+    "copyright copyright navigation";
+
+  align-items: center;
+  justify-content: space-between;
+  /*margin-top: 80px;*/
+}
+
+@media (max-width: 1024px) {
+  .footer__container {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "logo"
+      "navigation"
+      "donate"
+      "copyright";
+  }
+}
+
