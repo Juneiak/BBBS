@@ -1,3 +1,22 @@
 .header__profile-button {
-  
+  background-image: url(../../../images/header/profile.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  background-size: 20px;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0);
+  margin-left: 20px;
+  padding: 0;
+}
+
+.header__profile-button:hover {
+  background-image: url(../../../images/header/profile-hover.svg);
+}
+
+@media screen and (max-width: 1200px) {
+  .header__profile-button {
+    display: none;
+  }
 }

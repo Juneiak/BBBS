@@ -1,3 +1,18 @@
 .header__search-button {
-  
+  background-image: url(../../../images/header/search.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  border: none;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0 20px 0 0;
+  border-right: solid 0.7px #A7A6A6;
+}
+
+@media screen and (max-width: 1200px) {
+  .header__search-button {
+    display: none;
+  }
 }

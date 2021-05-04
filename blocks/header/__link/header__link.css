@@ -1,3 +1,17 @@
 .header__link {
-  
+  text-decoration: none;
+  color: #000000;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.2s;
+  margin-right: 30px;
+}
+
+.header__link:hover {
+  color: #224CFF;
+}
+
+.header__link:last-child {
+  margin: 0;
 }
