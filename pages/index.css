@@ -27,7 +27,10 @@
 @import url(../blocks/article-mentor/__link/article-mentor__link.css);
 @import url(../blocks/article-mentor/__teacher/article-mentor__teacher.css);
 
-
+/* article-child */
+@import url(../blocks/article-child/article-child.css);
+@import url(../blocks/article-child/__header/article-child__header.css);
+@import url(../blocks/article-child/__text/article-child__text.css);
 
 
 

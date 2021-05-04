@@ -1,15 +1,16 @@
-.article-mentor__teacher {
+.article-child__header {
   font-family: PTRootUIWebRegular, Arial, Helvetica, sans-serif;
+  color: #464646;
   font-size: 14px;
   line-height: 19px;
-  font-weight: 400;
   letter-spacing: 0.2px;
-  color: #464646;
+  font-weight: 400;
 }
 
 @media screen and (min-width: 320px) and (max-width: 410px)  {
-  .article-mentor__teacher {
+  .article-child__header {
     font-size: 12px;
     line-height: 17px;
+    letter-spacing: 0.2px;
   }
 }
