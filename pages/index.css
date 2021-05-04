@@ -32,5 +32,7 @@
 @import url(../blocks/article-child/__header/article-child__header.css);
 @import url(../blocks/article-child/__text/article-child__text.css);
 
+/*card-film */
+@import url(../blocks/card-film/card-film.css);
 
 
