@@ -1,5 +1,5 @@
 .calendar-card__settings {
-  background-image: url('/images/buttonSettingsBlue.svg');
+  background-image: url("../../../images/buttonSettingsBlue.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-color: #fff;
@@ -15,7 +15,7 @@
 }
 
 .calendar-card__settings:active {
-  background-image: url('/images/buttonSettingsWhite.svg');
+  background-image: url("../../../images/buttonSettingsWhite.svg");
   background-color: #224CFF;
   color: #fff;
 }
