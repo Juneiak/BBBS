@@ -1,4 +1,4 @@
-.footer__nav-section {
+.footer__nav-container {
   grid-area: navigation;
   text-transform: uppercase;
   display: flex;
