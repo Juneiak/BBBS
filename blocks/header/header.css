@@ -1,0 +1,6 @@
+.header {
+  font-family: 'Proto Grotesk Web';
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
