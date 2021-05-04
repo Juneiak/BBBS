@@ -1,0 +1,11 @@
+.card-film__link {
+  text-decoration: none;
+  text-transform: lowercase;
+  color: #224CFF;
+
+  font-family: PTRootUIWebRegular, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 19px;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+}

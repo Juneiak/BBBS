@@ -1,0 +1,8 @@
+.card-film__rubrucs {
+  /* outline: 1px green solid; */
+  position: absolute;
+  bottom: 12px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
