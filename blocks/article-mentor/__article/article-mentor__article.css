@@ -1,0 +1,9 @@
+.article-mentor__article {
+  padding-bottom: 46px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 410px)  {
+  .article-mentor__article {
+    padding-bottom: 14px;
+  }
+}

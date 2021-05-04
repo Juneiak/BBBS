@@ -18,3 +18,16 @@
 @import url(../blocks/calendar-card/__settings/calendar-card__settings.css);
 @import url(../blocks/calendar-card/__places/calendar-card__places.css);
 @import url(../blocks/calendar-card/__info-item/calendar-card__info-item.css);
+
+/* article-mentor */
+@import url(../blocks/article-mentor/article-mentor.css);
+@import url(../blocks/article-mentor/__article/article-mentor__article.css);
+@import url(../blocks/article-mentor/__text/article-mentor__text.css);
+@import url(../blocks/article-mentor/__header/article-mentor__header.css);
+@import url(../blocks/article-mentor/__link/article-mentor__link.css);
+@import url(../blocks/article-mentor/__teacher/article-mentor__teacher.css);
+
+
+
+
+
