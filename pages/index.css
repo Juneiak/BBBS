@@ -46,3 +46,5 @@
 @import url(../blocks/header/__dropdown/header__dropdown.css);
 @import url(../blocks/header/__subnav/header__subnav.css);
 @import url(../blocks/header/__sub-link/header__sub-link.css);
+@import url(../blocks/header/__search-input/header__search-input.css);
+@import url(../blocks/header/__form/header__form.css);

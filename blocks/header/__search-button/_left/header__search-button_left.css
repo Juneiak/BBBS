@@ -1,7 +1,6 @@
 .header__search-button_left {
   display: none;
   border: none;
-  padding: 0;
 }
 
 @media screen and (max-width: 1200px) {

@@ -4,11 +4,12 @@
   background-repeat: no-repeat;
   border: none;
   background-size: 20px;
-  width: 30px;
-  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
   background-color: rgba(0, 0, 0, 0);
   margin-left: 20px;
   padding: 0;
+  border-left: solid 0.7px #A7A6A6;
 }
 
 .header__profile-button:hover {
