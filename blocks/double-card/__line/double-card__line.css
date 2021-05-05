@@ -1,0 +1,12 @@
+.double-card__line {
+  border-bottom: 1px black solid;
+  max-width: 67px;
+  margin: 0 auto;
+  padding-top: 143px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 410px)  {
+  .double-card__line {
+    padding-top: 84px;
+  }
+}
