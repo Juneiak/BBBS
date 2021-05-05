@@ -5,6 +5,7 @@
   font-size: 25px;
   line-height: 1.12;
   color: #224CFF;
+  text-decoration: none;
 }
 
 .header__name:hover {

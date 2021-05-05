@@ -11,8 +11,13 @@
   padding: 0;
 }
 
+#menu:hover .header__menu-button {
+  background-image: url(../../../images/header/close-button.svg);
+}
+
 @media screen and (max-width: 1200px) {
   .header__menu-button {
     display: block;
   }
 }
+

@@ -6,6 +6,8 @@
   align-items: center;
   margin: 40px auto 0;
   max-width: 1770px;
+  
+  ;
 }
 
 @media screen and (max-width: 1800px) {

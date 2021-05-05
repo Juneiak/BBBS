@@ -1,0 +1,5 @@
+.header__menu-links_position_right {
+  grid-area: right;
+  justify-self: start;
+  align-items: start;
+}

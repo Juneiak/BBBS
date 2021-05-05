@@ -2,7 +2,6 @@
   display: none;
   border: none;
   border-bottom: 1px solid #000000;
-  width: 100%;
   outline: none;
   font-family: 'PTRootUIWebRegular';
   font-style: normal;
@@ -11,6 +10,7 @@
   line-height: 1.44;
   box-sizing: border-box;
   margin-left: -5px;
+  background-color: #F3F2F2;
 }
 
 .header__search-input:focus {
