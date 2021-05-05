@@ -1,5 +1,12 @@
 .footer {
   background-color: #2E2468;
   color: #F3F2F2;
-  padding: 90px 0 80px;
+  padding: 90px 10px 80px;
+}
+
+
+@media (max-width: 1024px) {
+  .footer {
+    padding: 40px 0 30px;
+  }
 }

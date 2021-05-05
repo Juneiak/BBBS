@@ -1,3 +1,6 @@
 .footer__copyright{
+  padding-top: 124px;
   grid-area: copyright;
+  display: flex;
+  flex-wrap: wrap;
 }

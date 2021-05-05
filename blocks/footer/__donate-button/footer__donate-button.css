@@ -9,8 +9,8 @@
   box-sizing: border-box;
   border-radius: 100px;
 
-  min-width: 169px;
-  min-height: 48px;
+  width: 169px;
+  height: 48px;
   background-color: #2E2468;
   color: #F3F2F2;
 

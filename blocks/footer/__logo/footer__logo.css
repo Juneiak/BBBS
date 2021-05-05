@@ -8,9 +8,9 @@
   grid-area: logo;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
   .footer__logo {
-    width: 238px;
+    width: 252px;
     height: 46px;
   }
 }

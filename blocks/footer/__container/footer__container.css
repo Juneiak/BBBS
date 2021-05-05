@@ -1,18 +1,17 @@
 .footer__container {
   display: grid;
-  width: 1024px;
+  max-width: 1160px;
   margin: auto;
 
   grid-template-columns: repeat(3, minmax(min-content, max-content));
-  grid-template-rows:  repeat(3, minmax(min-content, max-content));
-  grid-gap: 20px;
+  grid-template-rows:  repeat(2, minmax(min-content, max-content));
+  grid-gap: 0;
   grid-template-areas:
     "logo      donate    navigation"
     "copyright copyright navigation";
 
   align-items: center;
   justify-content: space-between;
-  /*margin-top: 80px;*/
 }
 
 @media (max-width: 1024px) {
@@ -23,6 +22,8 @@
       "navigation"
       "donate"
       "copyright";
+    justify-items: center;
+    max-width: 770px;
   }
 }
 

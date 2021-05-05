@@ -1,8 +1,17 @@
 .footer__nav-container {
   grid-area: navigation;
-  text-transform: uppercase;
   display: flex;
   flex-direction: row;
-  justify-content: stretch;
+  justify-content: space-between;
   align-items: stretch;
+}
+
+@media (max-width: 1024px) {
+  .footer__nav-container {
+    flex-direction: column;
+  }
+
+  .footer__nav-container:first-child {
+    border-bottom: 3px solid white;
+  }
 }
