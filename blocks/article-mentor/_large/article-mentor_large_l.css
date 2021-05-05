@@ -1,0 +1,9 @@
+.article-mentor_large_l {
+  max-width: 1170px;
+}
+
+@media screen and (max-width: 320px) {
+  .article-mentor_large_l {
+    max-width: 290px;
+  }
+}
