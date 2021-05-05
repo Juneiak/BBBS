@@ -3,6 +3,7 @@
 
 /* calendar-card */
 @import url(../blocks/calendar-card/calendar-card.css);
+@import url(../blocks/calendar-card/__content/calendar-card__content.css);
 @import url(../blocks/calendar-card/__header/calendar-card__header.css);
 @import url(../blocks/calendar-card/__main/calendar-card__main.css);
 @import url(../blocks/calendar-card/__people/calendar-card__people.css);
