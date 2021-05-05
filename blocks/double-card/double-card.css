@@ -1,0 +1,9 @@
+.double-card {
+  max-width: 420px;
+}
+
+@media screen and (max-width: 320px)   {
+  .double-card {
+    max-width: 290px;
+  }
+}

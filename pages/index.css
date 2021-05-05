@@ -3,6 +3,7 @@
 
 /* calendar-card */
 @import url(../blocks/calendar-card/calendar-card.css);
+@import url(../blocks/calendar-card/__content/calendar-card__content.css);
 @import url(../blocks/calendar-card/__header/calendar-card__header.css);
 @import url(../blocks/calendar-card/__main/calendar-card__main.css);
 @import url(../blocks/calendar-card/__people/calendar-card__people.css);
@@ -21,16 +22,53 @@
 
 /* article-mentor */
 @import url(../blocks/article-mentor/article-mentor.css);
+@import url(../blocks/article-mentor/__content/article-mentor__content.css);
+@import url(../blocks/article-mentor/__content/_large/article-mentor__content_large_l.css);
+@import url(../blocks/article-mentor/__content/_large/article-mentor__content_large_s.css);
+@import url(../blocks/article-mentor/__content/_large/article-mentor__content_large_m.css);
+@import url(../blocks/article-mentor/_large/article-mentor_large_l.css);
+@import url(../blocks/article-mentor/_large/article-mentor_large_s.css);
+@import url(../blocks/article-mentor/_large/article-mentor_large_m.css);
 @import url(../blocks/article-mentor/__article/article-mentor__article.css);
 @import url(../blocks/article-mentor/__text/article-mentor__text.css);
+@import url(../blocks/article-mentor/__text/_large/article-mentor__text_large_l.css);
+@import url(../blocks/article-mentor/__text/_large/article-mentor__text_large_s.css);
 @import url(../blocks/article-mentor/__header/article-mentor__header.css);
 @import url(../blocks/article-mentor/__link/article-mentor__link.css);
 @import url(../blocks/article-mentor/__teacher/article-mentor__teacher.css);
+@import url(../blocks/article-mentor/__article/_large/article-mentor__article_large_l.css);
+@import url(../blocks/article-mentor/__article/_large/article-mentor__article_large_s.css);
+@import url(../blocks/article-mentor/__article/_large/article-mentor__article_large_m.css);
+
+@import url(../blocks/article-mentor/__image/article-mentor__image.css);
 
 /* article-child */
 @import url(../blocks/article-child/article-child.css);
+@import url(../blocks/article-child/__content/article-child__content.css);
 @import url(../blocks/article-child/__header/article-child__header.css);
 @import url(../blocks/article-child/__text/article-child__text.css);
+
+/*card-film */
+@import url(../blocks/card-film/card-film.css);
+@import url(../blocks/card-film/__preview/card-film__preview.css);
+@import url(../blocks/card-film/__rubrics/card-film__rubrucs.css);
+@import url(../blocks/card-film/__image/card-film__image.css);
+@import url(../blocks/card-film/__rubrics-item/card-film__rubrucs-item.css);
+@import url(../blocks/card-film/__text/card-film__text.css);
+@import url(../blocks/card-film/__header/card-film__header.css);
+@import url(../blocks/card-film/__authors/card-film__authors.css);
+@import url(../blocks/card-film/__link/card-film__link.css);
+
+/* double-card */
+@import url(../blocks/double-card/double-card.css);
+@import url(../blocks/double-card/__line/double-card__line.css);
+@import url(../blocks/double-card/__square/double-card__square.css);
+@import url(../blocks/double-card/__book/double-card__book.css);
+@import url(../blocks/double-card/__title/double-card__title.css);
+@import url(../blocks/double-card/__text/double-card__text.css);
+@import url(../blocks/double-card/__date/double-card__date.css);
+
+@import url(../blocks/double-card/__author/double-card__author.css);
 
 
 /* footer */

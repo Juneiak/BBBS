@@ -1,0 +1,13 @@
+.card-film__rubrucs-item {
+  border-radius: 15px;
+  padding: 2px 7px;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #464646;
+  font-family: PTRootUIWebRegular, Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  line-height: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 400;
+
+}
