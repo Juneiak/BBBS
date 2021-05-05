@@ -21,6 +21,8 @@
 
 /* article-mentor */
 @import url(../blocks/article-mentor/article-mentor.css);
+@import url(../blocks/article-mentor/__content/article-mentor__content.css);
+
 @import url(../blocks/article-mentor/__article/article-mentor__article.css);
 @import url(../blocks/article-mentor/__text/article-mentor__text.css);
 @import url(../blocks/article-mentor/__header/article-mentor__header.css);
@@ -29,6 +31,7 @@
 
 /* article-child */
 @import url(../blocks/article-child/article-child.css);
+@import url(../blocks/article-child/__content/article-child__content.css);
 @import url(../blocks/article-child/__header/article-child__header.css);
 @import url(../blocks/article-child/__text/article-child__text.css);
 
