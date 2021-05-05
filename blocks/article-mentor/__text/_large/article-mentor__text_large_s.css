@@ -1,11 +1,11 @@
-.article-mentor__text_large_m {
+.article-mentor__text_large_s {
   padding-bottom: 5px;
   font-size: 23px;
   line-height: 30px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 410px)  {
-  .article-mentor__text_large_m {
+  .article-mentor__text_large_s {
     padding-top: 12px;
     font-size: 19px;
     line-height: 23px;

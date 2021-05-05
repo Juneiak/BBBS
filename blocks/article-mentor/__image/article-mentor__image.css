@@ -1,0 +1,7 @@
+.article-mentor__image {
+  display: block;
+  border-radius: 15px;
+  padding-bottom: 15px;
+  /* padding-top: 40px; */
+  max-width: 100%;
+}

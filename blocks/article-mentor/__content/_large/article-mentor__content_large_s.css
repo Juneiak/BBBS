@@ -1,0 +1,11 @@
+.article-mentor__content_large_s {
+  padding: 10px 30px 15px 30px;
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 410px)  {
+  .article-mentor__content_large_s {
+    padding: 10px 15px 15px 15px;
+    /* background-color: #C8D1FF; */
+  }
+}

@@ -23,18 +23,23 @@
 @import url(../blocks/article-mentor/article-mentor.css);
 @import url(../blocks/article-mentor/__content/article-mentor__content.css);
 @import url(../blocks/article-mentor/__content/_large/article-mentor__content_large_l.css);
+@import url(../blocks/article-mentor/__content/_large/article-mentor__content_large_s.css);
 @import url(../blocks/article-mentor/__content/_large/article-mentor__content_large_m.css);
 @import url(../blocks/article-mentor/_large/article-mentor_large_l.css);
+@import url(../blocks/article-mentor/_large/article-mentor_large_s.css);
 @import url(../blocks/article-mentor/_large/article-mentor_large_m.css);
 @import url(../blocks/article-mentor/__article/article-mentor__article.css);
 @import url(../blocks/article-mentor/__text/article-mentor__text.css);
 @import url(../blocks/article-mentor/__text/_large/article-mentor__text_large_l.css);
-@import url(../blocks/article-mentor/__text/_large/article-mentor__text_large_m.css);
+@import url(../blocks/article-mentor/__text/_large/article-mentor__text_large_s.css);
 @import url(../blocks/article-mentor/__header/article-mentor__header.css);
 @import url(../blocks/article-mentor/__link/article-mentor__link.css);
 @import url(../blocks/article-mentor/__teacher/article-mentor__teacher.css);
 @import url(../blocks/article-mentor/__article/_large/article-mentor__article_large_l.css);
+@import url(../blocks/article-mentor/__article/_large/article-mentor__article_large_s.css);
 @import url(../blocks/article-mentor/__article/_large/article-mentor__article_large_m.css);
+
+@import url(../blocks/article-mentor/__image/article-mentor__image.css);
 
 /* article-child */
 @import url(../blocks/article-child/article-child.css);
