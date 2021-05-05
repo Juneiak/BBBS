@@ -8,14 +8,10 @@
   line-height: 26px;
   font-weight: 400;
   overflow: hidden scroll;
-  padding-left: 30px;
-  padding-right: 30px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 410px)  {
   .article-child__text {
-    padding-left: 15px;
-    padding-right: 15px;
     max-height: 87px;
     font-size: 15px;
     line-height: 21px;

@@ -4,3 +4,9 @@
   max-width: 420px;
 
 }
+
+@media screen and (max-width: 320px)   {
+  .card-film {
+    max-width: 290px;
+  }
+}
