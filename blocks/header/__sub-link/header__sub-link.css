@@ -1,0 +1,17 @@
+.header__sub-link {
+  text-decoration: none;
+  color: #000000;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.25;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.header__sub-link:hover {
+  color: #224CFF;
+}
+.header__sub-link:last-child {
+  margin-bottom: 0;
+}
