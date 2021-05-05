@@ -1,5 +1,4 @@
 .footer__donate-button {
-  font-family: Proto Grotesk Web Light;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
@@ -13,6 +12,11 @@
   height: 48px;
   background-color: #2E2468;
   color: #F3F2F2;
-
   grid-area: donate;
+}
+
+@media (max-width: 1024px) {
+  .footer__donate-button {
+    margin: 30px;
+  }
 }

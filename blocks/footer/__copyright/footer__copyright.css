@@ -3,4 +3,12 @@
   grid-area: copyright;
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+@media (max-width: 1024px) {
+  .footer__copyright {
+    padding: 0;
+    justify-content: center;
+  }
 }
