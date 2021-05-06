@@ -1,0 +1,11 @@
+.section-first__green-block {
+  background-color: #8CDD94;
+  /* grid-column: 1/7; */
+  min-height: 333px;
+  max-height: 520px;
+  height: 100%;
+  grid-area: greenBlock;
+  border-radius: 30px;
+  /* grid-column-start: 1;
+  grid-column-end: 7; */
+}

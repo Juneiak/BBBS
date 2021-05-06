@@ -19,6 +19,7 @@
 @import url(../blocks/calendar-card/__settings/calendar-card__settings.css);
 @import url(../blocks/calendar-card/__places/calendar-card__places.css);
 @import url(../blocks/calendar-card/__info-item/calendar-card__info-item.css);
+@import url(../blocks/calendar-card/_main-grid/calendar-card_main-grid.css);
 
 /* article-mentor */
 @import url(../blocks/article-mentor/article-mentor.css);
@@ -39,14 +40,19 @@
 @import url(../blocks/article-mentor/__article/_large/article-mentor__article_large_l.css);
 @import url(../blocks/article-mentor/__article/_large/article-mentor__article_large_s.css);
 @import url(../blocks/article-mentor/__article/_large/article-mentor__article_large_m.css);
-
 @import url(../blocks/article-mentor/__image/article-mentor__image.css);
+@import url(../blocks/article-mentor/_main-grid/article-mentor_main-grid_violet.css);
+@import url(../blocks/article-mentor/_main-grid/article-mentor_main-grid_yellow.css);
+@import url(../blocks/article-mentor/__text/_main-grid/article-mentor__text_main-grid.css);
+@import url(../blocks/article-mentor/__media-block/article-mentor__media-block.css);
+
 
 /* article-child */
 @import url(../blocks/article-child/article-child.css);
 @import url(../blocks/article-child/__content/article-child__content.css);
 @import url(../blocks/article-child/__header/article-child__header.css);
 @import url(../blocks/article-child/__text/article-child__text.css);
+@import url(../blocks/article-child/_main-grid/article-child_main-grid.css);
 
 /*card-film */
 @import url(../blocks/card-film/card-film.css);
@@ -67,5 +73,38 @@
 @import url(../blocks/double-card/__title/double-card__title.css);
 @import url(../blocks/double-card/__text/double-card__text.css);
 @import url(../blocks/double-card/__date/double-card__date.css);
-
 @import url(../blocks/double-card/__author/double-card__author.css);
+
+/* page-main  */
+@import url(../blocks/page-main/page-main.css);
+
+/* row-1 */
+/* @import url(../blocks/page-main/__row-1/page-main__row-1.css); */
+
+/* purple card */
+/* @import url(../blocks/page-main/__about/section-first__about.css);
+@import url(../blocks/page-main/__oval/page-main__oval.css);
+@import url(../blocks/page-main/__oval/_full/page-main__oval_full.css);
+@import url(../blocks/page-main/__oval/_left/page-main__oval_left.css);
+@import url(../blocks/page-main/__oval/_color/page-main__oval_color_purple.css);
+@import url(../blocks/page-main/__nastavniki/page-main__nastavniki.css);
+@import url(../blocks/page-main/__nastavniki-text/section-first__nastavniki-text.css);
+@import url(../blocks/page-main/__logo/section-first__logo.css); */
+
+
+@import url(../blocks/section-first/section-first.css);
+@import url(../blocks/section-first/__logo/section-first__logo.css);
+@import url(../blocks/section-first/__green-block/section-first__green-block.css);
+@import url(../blocks/section-first/__pink-block-header/section-first__pink-block-header.css);
+@import url(../blocks/section-first/__pink-block-main/section-first__pink-block-main.css);
+
+@import url(../blocks/section-first/__nastavniki-text/section-first__nastavniki-text.css);
+
+
+/* history */
+
+@import url(../blocks/history/history.css);
+@import url(../blocks/history/__title/history__title.css);
+@import url(../blocks/history/__image/history__image.css);
+
+

@@ -1,0 +1,6 @@
+.article-mentor_main-grid_violet {
+  grid-area: article;
+  max-height: 490px;
+  height: 100%;
+  background-color: #C8D1FF;
+}
