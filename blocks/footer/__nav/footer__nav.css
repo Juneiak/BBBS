@@ -1,0 +1,28 @@
+.footer__nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 156px;
+  padding-right: 44px;
+}
+
+.footer__nav:last-child {
+  padding-right: 0px;
+}
+
+@media (max-width: 1024px) {
+  .footer__nav {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-width: 100%;
+    border-bottom: 1px solid #C8D1FF;
+    padding: 20px 0;
+  }
+
+  .footer__nav:last-child {
+    border-bottom: 0;
+  }
+
+}

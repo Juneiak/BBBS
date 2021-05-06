@@ -1,0 +1,18 @@
+.footer__copyright-paragraph {
+  margin: 12px 30px 0 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  color: #F3F2F2;
+}
+
+@media (max-width: 1024px) {
+  .footer__copyright-paragraph {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+  }
+}

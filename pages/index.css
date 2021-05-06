@@ -108,3 +108,16 @@
 @import url(../blocks/history/__image/history__image.css);
 
 
+
+/* footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__donate-button/footer__donate-button.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__nav-container/footer__nav-container.css);
+@import url(../blocks/footer/__nav/footer__nav.css);
+@import url(../blocks/footer/__nav-item/footer__nav-item.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__copyright-paragraph/footer__copiright-paragraph.css);
+@import url(../blocks/footer/__copyright-paragraph/_main/footer__copiright-paragraph_main.css);
