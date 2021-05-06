@@ -1,0 +1,14 @@
+.button {
+  font-family: 'ProtoGroteskLight';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.27;
+  letter-spacing: 0.2px;
+  border: 1px solid #A7A6A6;
+  box-sizing: border-box;
+  border-radius: 100px;
+  background-color: rgba(0, 0, 0, 0);
+  color: #A7A6A6;
+  padding: 13px 20px 16px;
+}

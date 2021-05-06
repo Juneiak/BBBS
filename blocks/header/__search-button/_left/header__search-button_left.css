@@ -1,0 +1,10 @@
+.header__search-button_left {
+  display: none;
+  border: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .header__search-button_left  {
+    display: block;
+  }
+}

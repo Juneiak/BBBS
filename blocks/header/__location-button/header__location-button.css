@@ -1,0 +1,14 @@
+.header__location-button {
+  grid-area: location;
+  justify-self: start;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  margin: 0 -20px 0 0;
+  font-family: 'PTRootUIWebRegular';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 1.4;
+  color: #A7A6A6;
+  padding: 0;
+}

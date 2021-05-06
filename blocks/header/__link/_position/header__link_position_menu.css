@@ -1,0 +1,7 @@
+.header__link_position_menu {
+  margin: 0 0 15px 0;
+}
+
+.header__link_position_menu:last-child {
+  margin: 0;
+}

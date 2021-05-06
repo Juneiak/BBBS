@@ -1,0 +1,5 @@
+.header__menu-links {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

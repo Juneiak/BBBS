@@ -1,0 +1,23 @@
+.header__search-input {
+  display: none;
+  border: none;
+  border-bottom: 1px solid #000000;
+  outline: none;
+  font-family: 'PTRootUIWebRegular';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.44;
+  box-sizing: border-box;
+  margin-left: -5px;
+  background-color: #F3F2F2;
+}
+
+.header__search-input:focus {
+  display: block;
+}
+
+.header__form:hover .header__search-input {
+  display: block;
+}
+

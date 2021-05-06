@@ -1,0 +1,18 @@
+@import url(../vendor/normalize.css);
+@import url(../fonts/inter.css);
+@import url(../blocks/page/page.css);
+
+/* logIn-popUp */
+
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_loginForm-popUp/button_loginForm-popUp.css);
+@import url(../blocks/input/input.css);
+
+@import url(../blocks/base-popUp/base-popUp.css);
+@import url(../blocks/base-popUp/__close-button/base-popUp__close-button.css);
+@import url(../blocks/loginForm-popUp/loginForm-popUp.css);
+@import url(../blocks/loginForm-popUp/__answer/loginForm-popUp__answer.css);
+@import url(../blocks/loginForm-popUp/__forgot-button/loginForm-popUp__forgot-button.css);
+@import url(../blocks/loginForm-popUp/__title/loginForm-popUp__title.css);
+@import url(../blocks/loginForm-popUp/__answers/loginForm-popUp__answers.css);

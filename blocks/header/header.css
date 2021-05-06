@@ -1,0 +1,29 @@
+.header {
+  font-family: 'ProtoGroteskLight';
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin: 40px auto 0;
+  max-width: 1770px;
+  
+  ;
+}
+
+@media screen and (max-width: 1800px) {
+  .header  {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .header  {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header  {
+    max-width: 90%;
+  }
+}

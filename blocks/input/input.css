@@ -1,0 +1,17 @@
+.input {
+  border: none;
+  box-sizing: border-box;
+  background-color: #F3F2F2;
+  border-radius: 30px;
+  font-family: 'PTRootUIWebRegular';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.2px;
+  width: 100%;
+  padding: 13px 20px 16px;
+  margin-bottom: 20px;
+  outline: none;
+}
+

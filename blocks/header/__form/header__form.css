@@ -1,0 +1,10 @@
+.header__form {
+  display: flex;
+}
+
+@media screen and (max-width: 1000px) {
+  .header__form {
+    flex-direction: column;
+  }
+}
+

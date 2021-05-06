@@ -1,0 +1,23 @@
+.header__menu {
+  border-radius: 0px 0px 30px 30px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  margin-top: 40px;
+  display: none;
+  background-color: #F3F2F2;
+  grid-template-columns: 159px 105px;
+  grid-template-rows: 1fr 50px;
+  grid-template-areas: 
+  'left right'
+  'location exit';
+  column-gap: 25px;
+  row-gap: 50px;
+  align-items: start;
+  justify-content: center;
+  z-index: 10;
+}
+
+#menu:hover .header__menu {
+  display: grid;
+}
