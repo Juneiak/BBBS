@@ -1,0 +1,8 @@
+.about__content {
+  max-width: 600px;
+  min-height: 570px;
+  background: #FFFFFF;
+  border-radius: 30px;
+  padding: 52px 30px;
+  box-sizing: border-box;
+}

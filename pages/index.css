@@ -121,3 +121,14 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__copyright-paragraph/footer__copiright-paragraph.css);
 @import url(../blocks/footer/__copyright-paragraph/_main/footer__copiright-paragraph_main.css);
+
+/* about */
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__header/about__header.css);
+@import url(../blocks/about/__logo/about__logo.css);
+@import url(../blocks/about/__circle/about__circle.css);
+@import url(../blocks/about/__content/about__content.css);
+@import url(../blocks/about/__section/about__section.css);
+@import url(../blocks/about/__paragraph/about__paragraph.css);
+@import url(../blocks/about/__mision/about__mission.css);
+

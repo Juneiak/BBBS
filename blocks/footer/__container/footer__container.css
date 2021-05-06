@@ -1,6 +1,6 @@
 .footer__container {
   display: grid;
-  max-width: 1160px;
+  max-width: 1170px;
   margin: auto;
 
   grid-template-columns: repeat(3, minmax(min-content, max-content));

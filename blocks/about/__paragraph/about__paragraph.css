@@ -1,0 +1,12 @@
+.about__paragraph {
+  font-family: PTRootUIWebRegular, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0 auto 20px;
+  padding: 0;
+}
+.about__paragraph:last-child {
+  margin-bottom: 0;
+}

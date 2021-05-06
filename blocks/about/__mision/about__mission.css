@@ -1,0 +1,14 @@
+.about__mission {
+  font-family: ProtoGroteskLight, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 44px;
+  line-height: 50px;
+  text-align: center;
+
+  padding: 60px 2vw;
+  margin: 80px auto;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  box-sizing: border-box;
+}
