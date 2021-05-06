@@ -1,0 +1,19 @@
+.button__color_blue {
+  border-color:  #224CFF;
+  color: #224CFF;
+}
+
+.button__color_blue:hover {
+  background-color: #C8D1FF;
+}
+
+.button__color_blue:active {
+  color: #F3F2F2;
+  background-color: #224CFF;
+}
+
+.button__color_blue:hover:active {
+  color: #F3F2F2;
+  border-color:  #2E2468;
+  background-color: #2E2468;
+}
