@@ -7,7 +7,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 1.4;
+  line-height: 1.36;
   letter-spacing: 0.2px;
   width: 100%;
   padding: 13px 20px 16px;
@@ -15,3 +15,10 @@
   outline: none;
 }
 
+@media screen and (max-width: 400px) {
+  .input {
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 1.42;
+  }
+}
