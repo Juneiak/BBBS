@@ -1,10 +1,10 @@
 .article-mentor_large_m {
-  max-width: 870px;
-  background-color: #F8D162;
+  /* max-width: 870px; */
+
 }
 
 @media screen and (max-width: 320px) {
   .article-mentor_large_m {
-    max-width: 290px;
+    /* max-width: 290px; */
   }
 }

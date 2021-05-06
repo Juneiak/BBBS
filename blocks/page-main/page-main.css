@@ -1,0 +1,30 @@
+.page-main {
+  /* background-color: violet; */
+  max-width: 1920px;
+  padding-left: 75px;
+  padding-right: 75px;
+  background-color: #F3F2F2;
+  /* height: 100vh; */
+}
+
+
+@media screen and (max-width: 1440px) {
+  .page-main {
+    padding-left: 135px;
+    padding-right: 135px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .page-main {
+    padding-left: 127px;
+    padding-right: 127px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .page-main {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

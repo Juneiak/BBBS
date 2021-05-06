@@ -1,0 +1,47 @@
+.section-first {
+  outline: 1px red solid;
+  display: grid;
+  /* height: 100%; */
+  grid-template-columns: repeat(6, 1fr);
+  /* grid-template-columns: repeat(auto-fill, minmax(70px, 1fr)); */
+  /* grid-template-columns: minmax(min-content, 1fr); */
+  /* grid-template-rows: 9em auto 9em; */
+  grid-template-areas:
+    "greenBlock greenBlock greenBlock history history history"
+    "yellowBlock yellowBlock yellowBlock yellowBlock child child"
+    "article article article article article article";
+  gap: 30px;
+}
+
+@media screen and (max-width: 1440px){
+  .section-first {
+    grid-template-areas:
+    "greenBlock greenBlock greenBlock history history history"
+    "yellowBlock yellowBlock yellowBlock child child child"
+    "article article article article article article";
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .section-first {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    "greenBlock history"
+    "yellowBlock yellowBlock"
+    "child child"
+    "article article";
+  }
+}
+
+@media screen and (max-width: 1023px){
+  .section-first {
+    grid-template-columns:1fr;
+    grid-template-areas:
+    "greenBlock"
+    "history"
+    "yellowBlock"
+    "child "
+    "article";
+  }
+}
+
