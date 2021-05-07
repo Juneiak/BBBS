@@ -1,7 +1,27 @@
 .section-first__logo {
-  outline: 1px green solid;
+  /* outline: 1px green solid; */
   z-index: 3;
-  position: absolute;
+  position: relative;
   top: 25%;
   left: 5.6%;
+  max-width: 255px;
+}
+
+@media screen and (max-width: 1440px){
+  .section-first__logo {
+    max-width: 252px;
+  }
+}
+
+
+@media screen and (max-width: 1200px){
+  .section-first__logo {
+    max-width: 200px;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .section-first__logo {
+    max-width: 164px;
+  }
 }

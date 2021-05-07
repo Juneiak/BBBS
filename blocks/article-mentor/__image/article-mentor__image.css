@@ -4,9 +4,22 @@
   padding-bottom: 15px;
   /* padding-top: 40px; */
   width: 100%;
-  max-height: 394px;
+  /* max-height: 394px; */
   /* height: 100%; */
-  object-fit:cover;
+  object-fit: cover;
   margin: 0;
 
 }
+
+@media screen and (max-width: 1440px){
+  .article-mentor__image  {
+    min-height: 394px;
+  }
+}
+
+@media screen and (max-width: 730px){
+  .article-mentor__image  {
+    min-height: 142px;
+  }
+}
+

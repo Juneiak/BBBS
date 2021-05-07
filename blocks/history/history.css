@@ -1,17 +1,25 @@
 .history {
-  /* background-image: url("../../images/MarinaAndAlina.png");
-  background-repeat: no-repeat; */
-  /* grid-column: 7/-1; */
-  /* max-height: 520px; */
-  /* max-height: 100%; */
-  /* max-width: 100%; */
   position: relative;
   text-align: center;
   grid-area: history;
+  z-index: 1;
+  border-radius: 30px;
 }
 
-/* @media screen and (max-width: 1440px){
+@media screen and (max-width: 1440px){
   .history {
-    max-height: 414px;
+    min-height: 414px;
   }
-} */
+}
+
+@media screen and (max-width: 1024px){
+  .history {
+    min-height: 382px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .history {
+    min-height: 290px;
+  }
+}
