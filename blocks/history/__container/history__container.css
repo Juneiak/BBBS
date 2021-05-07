@@ -1,4 +1,10 @@
 .history__container {
-  background-color: #464646;
-  /* opacity: 80%; */
+  background-color: rgba(70,70,70,.8);
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  mix-blend-mode: multiply;
 }

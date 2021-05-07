@@ -1,7 +1,17 @@
 .article-mentor_main-grid_yellow {
   background-color: #F8D162;
   grid-area: yellowBlock;
-  max-height: 629px;
 
+}
 
+@media screen and (max-width: 1920px){
+  .article-mentor_main-grid_yellow {
+    min-height: 629px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .article-mentor_main-grid_yellow {
+    min-height: 333px;
+  }
 }

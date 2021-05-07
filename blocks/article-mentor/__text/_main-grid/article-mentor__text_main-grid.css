@@ -1,4 +1,14 @@
 .article-mentor__text_main-grid {
   max-width: 970px;
   margin: 0 auto;
+  padding-bottom: 71px;
+}
+
+@media screen and (max-width: 1024px)   {
+  .article-mentor__text_main-grid {
+    /* max-height: 312px; */
+    font-size: 19px;
+    line-height: 23px;
+
+  }
 }

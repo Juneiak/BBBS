@@ -1,0 +1,11 @@
+.article-child__text_page_main {
+  padding-top: 105px;
+  max-height: 389px;
+}
+
+@media screen and (max-width: 1024px)   {
+  .article-child__text_page_main {
+    padding-top: 5px;
+    max-height: 106px;
+  }
+}

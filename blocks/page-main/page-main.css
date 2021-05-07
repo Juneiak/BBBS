@@ -1,10 +1,8 @@
 .page-main {
-  /* background-color: violet; */
-  max-width: 1920px;
   padding-left: 75px;
   padding-right: 75px;
   background-color: #F3F2F2;
-  /* height: 100vh; */
+  /* padding-top: 75px; */
 }
 
 
