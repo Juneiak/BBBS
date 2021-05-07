@@ -11,6 +11,6 @@
   .about__logo {
     width: 252px;
     height: 46px;
-    margin-bottom: 40px;
+    margin: 30px auto 50px;
   }
 }

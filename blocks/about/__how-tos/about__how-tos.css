@@ -2,6 +2,12 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
-  justify-items: center;
-  align-items: stretch;
+}
+
+@media (max-width: 1024px) {
+  .about__how-tos {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+    max-width: 570px;
+  }
 }

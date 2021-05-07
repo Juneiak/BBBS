@@ -9,3 +9,17 @@
   padding: 0;
   margin: 0;
 }
+
+@media (max-width: 1440px) {
+  .about__header {
+    max-width: 1030px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .about__header {
+    max-width: 770px;
+    font-size: 19px;
+    line-height: 23px;
+  }
+}

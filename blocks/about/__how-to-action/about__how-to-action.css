@@ -1,2 +1,17 @@
 .about__how-to-action {
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: #224CFF;
+  text-decoration: none;
+  margin: 0;
+  padding: 30px 0 0;
+}
+
+
+@media (max-width: 1024px) {
+  .about__how-to-action {
+    font-size: 12px;
+    line-height: 17px;
+  }
 }

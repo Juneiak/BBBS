@@ -4,9 +4,17 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 26px;
-  margin: 0 auto 20px;
+  margin: 30px auto 0;
   padding: 0;
 }
-.about__paragraph:last-child {
-  margin-bottom: 0;
+
+.about__paragraph:first-child {
+  margin-top: 0;
+}
+
+@media (max-width: 1024px) {
+  .about__paragraph {
+    font-size: 15px;
+    line-height: 21px;
+  }
 }

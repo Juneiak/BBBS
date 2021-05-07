@@ -3,7 +3,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 80px 4vw 120px;
+  padding: 80px calc(100vw/2 - 1770px/2) 120px;
   background-color: #F3F2F2;
   font-family: ProtoGroteskLight, Arial, Helvetica, sans-serif;
 }
+
+@media (max-width: 1024px) {
+  .about {
+    padding: 50px calc(100vw/2 - 770px/2) 100px;
+  }
+}
+
+@media (max-width: 790px) {
+  .about {
+    padding: 30px 15px 50px;
+  }
+}
+
