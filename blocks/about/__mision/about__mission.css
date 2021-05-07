@@ -16,7 +16,7 @@
 
 @media (max-width: 1440px) {
   .about__mission {
-    padding: 60px calc(100vw / 2 - 960px / 2);
+    padding: 60px calc(100vw / 2 - 1170px / 2);
   }
 }
 
