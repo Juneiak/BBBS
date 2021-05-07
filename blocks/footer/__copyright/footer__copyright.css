@@ -4,6 +4,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  font-family: PTRootUIWebRegular, Arial, Helvetica, sans-serif;
 }
 
 @media (max-width: 1024px) {
