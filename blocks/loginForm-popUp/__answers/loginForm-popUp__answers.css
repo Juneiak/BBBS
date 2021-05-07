@@ -4,3 +4,9 @@
   flex-direction: column;
   margin-bottom: 50px;
 }
+
+@media screen and (max-width: 400px) {
+  .loginForm-popUp__answers {
+    margin-bottom: 32px;
+  }
+}

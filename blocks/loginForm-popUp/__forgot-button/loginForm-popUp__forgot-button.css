@@ -5,10 +5,19 @@
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 19px;
+  line-height: 1.36;
   letter-spacing: 0.2px;
   color: #464646;
   text-decoration: none;
   background-color: rgba(0, 0, 0, 0);
   margin-bottom: 31px;
+}
+
+
+@media screen and (max-width: 400px) {
+  .loginForm-popUp__forgot-button {
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 1.42;
+  }
 }
