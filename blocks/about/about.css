@@ -8,6 +8,12 @@
   font-family: ProtoGroteskLight, Arial, Helvetica, sans-serif;
 }
 
+@media (max-width: 1440px) {
+  .about {
+    padding: 80px calc(100vw / 2 - 1170px / 2) 120px;
+  }
+}
+
 @media (max-width: 1024px) {
   .about {
     padding: 50px calc(100vw/2 - 770px/2) 100px;
