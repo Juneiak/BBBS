@@ -1,0 +1,28 @@
+.filter-buttons {
+  padding-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1770px;
+}
+
+@media screen and (max-width: 1800px) {
+  .filter-buttons {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .filter-buttons {
+    padding-bottom: 50px;
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .filter-buttons {
+    padding-bottom: 30px;
+    max-width: 90%;
+  }
+}
