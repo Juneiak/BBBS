@@ -1,0 +1,7 @@
+.about__how-tos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  justify-items: center;
+  align-items: stretch;
+}

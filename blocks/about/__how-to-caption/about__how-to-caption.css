@@ -1,0 +1,9 @@
+.about__how-to-caption {
+  min-height: 120px;
+  border-radius: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
