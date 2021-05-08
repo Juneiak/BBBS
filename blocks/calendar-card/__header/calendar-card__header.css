@@ -1,4 +1,11 @@
 .calendar-card__header {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .calendar-card__header {
+    margin-bottom: 5px;
+  }
 }

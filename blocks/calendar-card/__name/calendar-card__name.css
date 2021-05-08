@@ -4,19 +4,19 @@
   line-height: 30px;
   font-weight: 300;
   margin: 0;
-  max-width: 320px;
+  max-width: 340px;
 }
 
 @media screen and (max-width: 1200px)  {
   .calendar-card__name {
     font-size: 19px;
     line-height: 23px;
-    max-width: 246px;
+    max-width: 266px;
   }
 }
 
 @media screen and (max-width: 400px)  {
   .calendar-card__name {
-    max-width: 166px;
+    max-width: 186px;
   }
 }

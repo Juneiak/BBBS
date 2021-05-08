@@ -7,7 +7,7 @@
   font-family: PTRootUIWebRegular, Arial, Helvetica, sans-serif;
 }
 
-@media screen and (min-width: 320px) and (max-width: 410px)  {
+@media screen and (max-width: 1200px)  {
   .calendar-card__people {
     font-size: 12px;
     line-height: 17px;
