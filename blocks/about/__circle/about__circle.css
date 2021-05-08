@@ -1,0 +1,25 @@
+.about__circle {
+  margin: 0;
+  padding: 0;
+  width: 570px;
+  height: 570px;
+  border-radius: 50%;
+  background-color: #F8D162;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .about__circle {
+    width: 370px;
+    height: 370px;
+  }
+}
+
+@media (max-width: 790px) {
+  .about__circle {
+    width: 290px;
+    height: 290px;
+  }
+}

@@ -1,0 +1,5 @@
+.about__how-to {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}

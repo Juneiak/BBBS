@@ -123,3 +123,21 @@
 
 /* list-films */
 @import url(../blocks/list-films/list-films.css);
+
+/* about */
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__header/about__header.css);
+@import url(../blocks/about/__logo/about__logo.css);
+@import url(../blocks/about/__circle/about__circle.css);
+@import url(../blocks/about/__content/about__content.css);
+@import url(../blocks/about/__section/about__section.css);
+@import url(../blocks/about/__paragraph/about__paragraph.css);
+@import url(../blocks/about/__mision/about__mission.css);
+@import url(../blocks/about/__how-tos/about__how-tos.css);
+@import url(../blocks/about/__how-to/about__how-to.css);
+@import url(../blocks/about/__how-to-caption/about__how-to-caption.css);
+@import url(../blocks/about/__how-to-caption/_color/about__how-to-caption_color_green.css);
+@import url(../blocks/about/__how-to-caption/_color/about__how-to-caption_color_orange.css);
+@import url(../blocks/about/__how-to-caption/_color/about__how-to-caption_color_light-blue.css);
+@import url(../blocks/about/__how-to-action/about__how-to-action.css);
+@import url(../blocks/about/__how-to-details/about__how-to-details.css);

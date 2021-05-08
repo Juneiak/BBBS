@@ -1,0 +1,16 @@
+.about__logo {
+  width: 357px;
+  height: 65px;
+  background-image: url(../../../images/about-logo.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 50px auto 80px;
+}
+
+@media (max-width: 1024px) {
+  .about__logo {
+    width: 252px;
+    height: 46px;
+    margin: 30px auto 50px;
+  }
+}
