@@ -1,0 +1,8 @@
+.calendar-table {
+  margin: 0;
+  padding: 9;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
