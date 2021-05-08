@@ -8,7 +8,7 @@
   letter-spacing: -2px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 410px)  {
+@media screen and (min-width: 320px) and (max-width: 1200px)  {
   .calendar-card__date {
     font-size: 60px;
     line-height: 60px;

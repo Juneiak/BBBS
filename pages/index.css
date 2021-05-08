@@ -20,6 +20,7 @@
 @import url(../blocks/calendar-card/__places/calendar-card__places.css);
 @import url(../blocks/calendar-card/__info-item/calendar-card__info-item.css);
 @import url(../blocks/calendar-card/_main-grid/calendar-card_main-grid.css);
+@import url(../blocks/calendar-card/__info/calendar-card__info.css);
 
 /* article-mentor */
 @import url(../blocks/article-mentor/article-mentor.css);
