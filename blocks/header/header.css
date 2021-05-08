@@ -6,9 +6,8 @@
   align-items: center;
   margin: 0 auto;
   max-width: 1770px;
-  /* margin: 0; */
-  padding-top: 40px;
-  /* padding: 40px 0 85px; */
+  padding: 40px 0 85px;
+  width: 100%;
 }
 @media screen and (max-width: 1800px) {
   .header  {
@@ -19,13 +18,14 @@
 @media screen and (max-width: 1200px) {
   .header  {
     max-width: 80%;
-    padding-top: 30px;
+    padding-top: 50px;
   }
 }
 
 @media screen and (max-width: 400px) {
   .header  {
     max-width: 90%;
+    padding-top: 30px;
     padding-bottom: 30px;
   }
 }

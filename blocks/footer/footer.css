@@ -3,6 +3,7 @@
   color: #F3F2F2;
   padding: 90px 10px 80px;
   font-family: ProtoGroteskLight, Arial, Helvetica, sans-serif;
+  width: 100%
 }
 
 @media (max-width: 1024px) {

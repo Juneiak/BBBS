@@ -11,7 +11,7 @@
     "yellowBlock yellowBlock yellowBlock yellowBlock child child"
     "article article article article article article";
   gap: 30px;
-  padding-top: 80px;
+  /*padding-top: 80px;*/
 }
 
 @media screen and (max-width: 1440px){
@@ -21,7 +21,7 @@
     "yellowBlock yellowBlock yellowBlock child child child"
     "article article article article article article";
     /* padding-top: 75px; */
-    padding-top: 72px;
+    /* padding-top: 72px; */
   }
 }
 /*
@@ -39,7 +39,7 @@
     "yellowBlock yellowBlock"
     "child child"
     "article article";
-    padding-top: 30px;
+    /* padding-top: 30px; */
   }
 }
 
@@ -52,7 +52,7 @@
     "yellowBlock"
     "child "
     "article";
-    padding-top: 10px;
+   /* padding-top: 10px; */
   }
 }
 
