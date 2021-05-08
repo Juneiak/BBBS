@@ -1,0 +1,15 @@
+.film {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  height: 420px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  border-radius: 30px;
+  background-color: white;
+}
+

@@ -1,0 +1,10 @@
+.film__link {
+  margin-bottom: 15px;
+  font-family: PTRootUIWebRegular, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+}

@@ -1,0 +1,11 @@
+.film__info {
+  margin: 0 auto;
+  color: #464646;
+  font-family: PTRootUIWebRegular, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.2px;
+}

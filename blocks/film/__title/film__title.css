@@ -1,0 +1,9 @@
+.film__title {
+  margin: 0px auto 5px;
+  font-family: ProtoGroteskLight, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 30px;
+  text-align: center;
+}
