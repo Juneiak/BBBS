@@ -1,8 +1,35 @@
 .calendar-table {
   margin: 0;
-  padding: 9;
+  padding: 0;
+  width: 90%;
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 570px);
+  justify-content: center;
+}
+
+@media screen and (max-width: 1800px) {
+  .calendar-table {
+    grid-template-columns: repeat(2, 570px);
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+  .calendar-table {
+    grid-template-columns: repeat(2, 370px);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .calendar-table {
+    grid-template-columns: repeat(1, 370px);
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .calendar-table {
+    grid-template-columns: repeat(1, 290px);
+  }
 }

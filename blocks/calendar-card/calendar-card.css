@@ -1,25 +1,13 @@
 .calendar-card {
+  max-width: 570px;
   padding: 30px;
-  max-height: 100%;
-  max-width: 560px;
-
   border-radius: 30px;
   background-color: #fff;
-  max-height: 520px;
   margin: 0;
-  padding: 9;
-
 }
 
 @media screen and (max-width: 1200px) {
   .calendar-card {
     padding: 30px 15px;
-    max-width: 340px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .calendar-card{
-    max-width: 260px;
   }
 }
