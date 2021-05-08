@@ -68,6 +68,7 @@
 @import url(../blocks/card-film/__header/card-film__header.css);
 @import url(../blocks/card-film/__authors/card-film__authors.css);
 @import url(../blocks/card-film/__link/card-film__link.css);
+@import url(../blocks/card-film/_page/card-film_page_main.css);
 
 /* double-card */
 @import url(../blocks/double-card/double-card.css);
@@ -82,20 +83,8 @@
 /* page-main  */
 @import url(../blocks/page-main/page-main.css);
 
-/* row-1 */
-/* @import url(../blocks/page-main/__row-1/page-main__row-1.css); */
 
-/* purple card */
-/* @import url(../blocks/page-main/__about/section-first__about.css);
-@import url(../blocks/page-main/__oval/page-main__oval.css);
-@import url(../blocks/page-main/__oval/_full/page-main__oval_full.css);
-@import url(../blocks/page-main/__oval/_left/page-main__oval_left.css);
-@import url(../blocks/page-main/__oval/_color/page-main__oval_color_purple.css);
-@import url(../blocks/page-main/__nastavniki/page-main__nastavniki.css);
-@import url(../blocks/page-main/__nastavniki-text/section-first__nastavniki-text.css);
-@import url(../blocks/page-main/__logo/section-first__logo.css); */
-
-
+/* section-first */
 @import url(../blocks/section-first/section-first.css);
 @import url(../blocks/section-first/__logo/section-first__logo.css);
 @import url(../blocks/section-first/__green-block/section-first__green-block.css);
@@ -126,6 +115,15 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__copyright-paragraph/footer__copiright-paragraph.css);
 @import url(../blocks/footer/__copyright-paragraph/_main/footer__copiright-paragraph_main.css);
+
+
+/* section-second */
+@import url(../blocks/section-second/section-second.css);
+
+
+
+/* list-films */
+@import url(../blocks/list-films/list-films.css);
 
 /* about */
 @import url(../blocks/about/about.css);
