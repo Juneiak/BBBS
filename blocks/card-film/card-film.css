@@ -1,12 +1,12 @@
 .card-film {
   outline: 1px red solid;
   border-radius: 30px;
-  max-width: 420px;
+  min-width: 420px;
 
 }
 
 @media screen and (max-width: 320px)   {
   .card-film {
-    max-width: 290px;
+    /* max-width: 290px; */
   }
 }
