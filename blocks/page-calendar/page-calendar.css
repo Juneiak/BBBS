@@ -1,6 +1,6 @@
-.loginForm-popUp {
+.page-calendar {
+  background-color: #F3F2F2;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
 }

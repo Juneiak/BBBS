@@ -1,0 +1,16 @@
+.calendar-card__about {
+  display: none;
+  font-family: 'PTRootUIWebRegular';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.44;
+  margin: 0 0 30px;
+}
+
+@media screen and (max-width: 900px) {
+  .calendar-card__about  {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+}

@@ -1,5 +1,5 @@
 .filter-buttons {
-  padding-bottom: 80px;
+  padding-bottom: 65px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 1200px) {
   .filter-buttons {
-    padding-bottom: 50px;
+    padding-bottom: 40px;
     max-width: 80%;
   }
 }

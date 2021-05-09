@@ -1,18 +1,18 @@
-.button__active_dark {
+.button_active_dark {
   color: #000000;
   border-color: #000000;
 }
 
-.button__active_dark:hover {
+.button_active_dark:hover {
   background-color: #E0E0E0;
 }
 
-.button__active_dark:active {
+.button_active_dark:active {
   color: #F3F2F2;
   background-color: #000000;
 }
 
-.button__active_dark:hover:active {
+.button_active_dark:hover:active {
   color: #F3F2F2;
   border-color:  #2E2468;
   background-color: #2E2468;
