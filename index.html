@@ -7,6 +7,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="pages/index.css">
   <link rel="stylesheet" href="pages/header.css">
+  <link rel="stylesheet" href="pages/calendar.css">
 </head>
 <body>
 
@@ -68,7 +69,7 @@
      <section class="section-first">
 
       <!-- green -->
-      <div class="section-first__green-block section-first__green-block_auth_false">
+      <div class="section-first__green-block section-first_auth_false">
         <!-- logo  -->
 
         <!-- pink -->
@@ -81,9 +82,8 @@
         </div>
 
       </div>
-
-<!-- <div class="calendar-card calendar-card_main-grid section-first__green-block_auth_true">
-        <div class="calendar-card__content">
+      <!-- <div class="calendar__card calendar__card_page-main section-first_auth_true">
+        <div class="calendar-card calendar-card_page-main">
           <div class="calendar-card__header">
             <span class="calendar-card__people">Волонтёры + дети</span>
             <span class="calendar-card__month">декабрь / понедельник</span>
@@ -94,21 +94,23 @@
           </div>
 
           <div class="calendar-card__info">
-            <p class="calendar-card__info-item calendar-card__time">12:00 - 14:00</p>
-            <p class="calendar-card__info-item calendar-card__address">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
-            <p class="calendar-card__info-item calendar-card__contact">Александра, +7 926 356-78-90</p>
+            <p class="calendar-card__info-item">12:00 - 14:00</p>
+            <p class="calendar-card__info-item">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
+            <p class="calendar-card__info-item">Александра, +7 926 356-78-90</p>
           </div>
+
+          <p class="calendar-card__about">Наконец-то наступила весна и мы пережили эту долгую зиму! И возможно, что внутренних сил и ресурса сейчас не так много, а до окончания учебного года ещё целых несколько месяцев. Поэтому приглашаем вас на встречу нашего ресурсного клуба "Наставник PRO", которую мы хотим посвятить теме поиска моральных сил, смыслов и внутреннего ресурса для общения и взаимодействия с нашими подопечными. </p>
 
           <div class="calendar-card__actions">
             <div class="calendar-card__entry">
-              <button class="calendar-card__submit" type="submit">Записаться</button>
+              <button class="button button_active_blue" type="submit">Записаться</button>
               <span class="calendar-card__places">Осталось 5 мест</span>
             </div>
-            <button class="calendar-card__settings" type="button"></button>
+            <button class="button button_active_blue button_calendar-settings" type="submit"></button>
           </div>
         </div>
-
       </div> -->
+
 
       <div class="history">
 
@@ -154,73 +156,7 @@
       </div>
     </section>
     <section class="section-second">
-      <!-- <ul class="list-films">
-        <li class="card-film card-film_type_image card-film_page_main">
-          <div class="card-film__preview">
-            <div class="card-film__rubrucs">
-              <span class="card-film__rubrucs-item">Рубрика</span>
-              <span class="card-film__rubrucs-item">Рубрика</span>
-            </div>
-            <img class="card-film__image" src="images/cardPreviewFilm.png" alt="Превью фильма">
 
-          </div>
-          <div class="card-film__text">
-            <h2 class="card-film__header">1</h2>
-            <p class="card-film__authors">Василий Сигарев, Борисов-Мусотов (Россия), 2009 год</p>
-            <a class="card-film__link" href="#">смотреть трейлер</a>
-          </div>
-        </li>
-        <li class="card-film card-film_type_image card-film_page_main">
-          <div class="card-film__preview">
-            <div class="card-film__rubrucs">
-              <span class="card-film__rubrucs-item">Рубрика</span>
-              <span class="card-film__rubrucs-item">Рубрика</span>
-            </div>
-            <img class="card-film__image" src="images/cardPreviewFilm.png" alt="Превью фильма">
-
-          </div>
-          <div class="card-film__text">
-            <h2 class="card-film__header">2</h2>
-            <p class="card-film__authors">Василий Сигарев, Борисов-Мусотов (Россия), 2009 год</p>
-            <a class="card-film__link" href="#">смотреть трейлер</a>
-          </div>
-        </li>
-        <li class="card-film card-film_type_image card-film_page_main">
-          <div class="card-film__preview">
-            <div class="card-film__rubrucs">
-              <span class="card-film__rubrucs-item">Рубрика</span>
-              <span class="card-film__rubrucs-item">Рубрика</span>
-            </div>
-            <img class="card-film__image" src="images/cardPreviewFilm.png" alt="Превью фильма">
-
-          </div>
-          <div class="card-film__text">
-            <h2 class="card-film__header">3</h2>
-            <p class="card-film__authors">Василий Сигарев, Бawfawfawfawfwfadgfdя), 2009 год</p>
-            <a class="card-film__link" href="#">смотреть трейлер</a>
-          </div>
-        </li>
-        <li class="card-film card-film_type_image card-film_page_main">
-          <div class="card-film__preview">
-            <div class="card-film__rubrucs">
-              <span class="card-film__rubrucs-item">Рубрика</span>
-              <span class="card-film__rubrucs-item">Рубрика</span>
-            </div>
-            <img class="card-film__image" src="images/cardPreviewFilm.png" alt="Превью фильма">
-
-          </div>
-          <div class="card-film__text">
-            <h2 class="card-film__header">4</h2>
-            <p class="card-film__authors">Василий Сигарев, Борисов-Мусотов (Россия), 2009 год</p>
-            <a class="card-film__link" href="#">смотреть трейлер</a>
-          </div>
-        </li>
-      </ul> -->
-
-
-    </section>
-
-    <!-- <div class="main__films"> -->
       <ul class="films">
         <li class="film">
           <img class="film__image" src="images/cardPreviewFilm.png" alt="Превью фильма">
@@ -308,8 +244,6 @@
           </div>
         </li>
         </ul>
-      <!-- </div> -->
-
     <div class="video-block">
       <div class="article-mentor article-mentor_main-grid_yellow-second">
         <div class="article-mentor__content">
@@ -357,6 +291,7 @@
       </div>
     </div>
   </div>
+
   <footer class="footer">
     <div class="footer__container">
       <div class="footer__logo"></div>
