@@ -1,8 +1,7 @@
 .page-main {
-  /* padding-left: 75px;
+  padding-left: 75px;
   padding-right: 75px;
-  background-color: #F3F2F2; */
-  /* padding-top: 75px; */
+  background-color: #F3F2F2;
   padding-bottom: 120px;
 }
 
@@ -18,7 +17,7 @@
   }
 }
 
-/* @media screen and (max-width: 1440px) {
+@media screen and (max-width: 1440px) {
   .page-main {
     padding-left: 135px;
     padding-right: 135px;
@@ -37,4 +36,4 @@
     padding-left: 15px;
     padding-right: 15px;
   }
-} */
+}
