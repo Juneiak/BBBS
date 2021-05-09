@@ -1,8 +1,8 @@
 .base-popUp__close-button {
   background-image: url(../../../images/page/close-button.svg);
   position: absolute;
-  top: 25px;
-  right: 25px;
+  top: 30px;
+  right: 30px;
   border: none;
   width: 20px;
   height: 20px;
