@@ -1,7 +1,7 @@
 .facebook {
   display: grid;
   gap: 30px;
-  grid-template-columns: auto auto;
+  grid-template-columns: min-content 1fr;
   justify-content: center;
   align-items: stretch;
   background-color: #F3F2F2;

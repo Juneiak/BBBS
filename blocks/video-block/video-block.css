@@ -6,7 +6,6 @@
 
 @media screen and (max-width: 1024px) {
   .video-block {
-    /* flex-direction: column; */
     flex-wrap: wrap-reverse;
   }
 }

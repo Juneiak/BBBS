@@ -36,6 +36,8 @@
 @import url(../blocks/calendar-card/__info-item/calendar-card__info-item.css);
 @import url(../blocks/calendar-card/_main-grid/calendar-card_main-grid.css);
 @import url(../blocks/calendar-card/__info/calendar-card__info.css);
+@import url(../blocks/calendar/__card/_page-main/calendar__card_page-main.css);
+@import url(../blocks/calendar-card/_page-main/calendar-card_page-main.css);
 @import url(../blocks/calendar-card/__about/calendar-card__about.css);
 @import url(../blocks/calendar-card/__about/_open/calendar-card__about_open.css);
 
@@ -105,6 +107,7 @@
 @import url(../blocks/article-mentor/__article/_large/article-mentor__article_large_m.css);
 @import url(../blocks/article-mentor/__image/article-mentor__image.css);
 @import url(../blocks/article-mentor/_main-grid/article-mentor_main-grid_violet.css);
+@import url(../blocks/article-mentor/_main-grid/article-mentor_main-grid_green.css);
 
 @import url(../blocks/article-mentor/_main-grid/article-mentor_main-grid_yellow-first.css);
 @import url(../blocks/article-mentor/_main-grid/article-mentor_main-grid_yellow-second.css);

@@ -1,0 +1,4 @@
+.calendar__card_page-main {
+  /* min-width: 870px; */
+  grid-area: greenBlock;
+}

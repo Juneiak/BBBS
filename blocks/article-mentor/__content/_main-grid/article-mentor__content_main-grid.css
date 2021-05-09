@@ -4,7 +4,6 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  /* padding: 0; */
   padding: 120px 400px;
 }
 
@@ -17,14 +16,12 @@
 
 @media screen and (max-width: 1300px)   {
   .article-mentor__content_main-grid {
-    /* max-height: 312px; */
     padding: 30px 39px;
   }
 }
 
 @media screen and (max-width: 400px)   {
   .article-mentor__content_main-grid {
-    /* max-height: 312px; */
     padding: 30px 15px;
   }
 }
