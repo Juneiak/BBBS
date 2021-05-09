@@ -135,6 +135,7 @@
 @import url(../blocks/video-block/__iframe/video-block__iframe.css);
 
 /* about */
+@import url(../blocks/page-about/page-about.css);
 @import url(../blocks/about/about.css);
 @import url(../blocks/about/__header/about__header.css);
 @import url(../blocks/about/__logo/about__logo.css);
