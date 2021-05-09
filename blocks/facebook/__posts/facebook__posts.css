@@ -1,0 +1,17 @@
+.facebook__posts {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  /*display: flex;*/
+  /*flex-direction: row;*/
+  /*align-items: center;*/
+  /*justify-content: center;*/
+  flex-wrap: wrap;
+  height: 627px;
+  overflow: hidden;
+}

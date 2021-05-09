@@ -35,9 +35,9 @@ plan
 
 issues
   image pathes (O)
-  list-film review (S)
-  facebook_rubrics (S)
+  - list-film review (S)
+  - facebook_rubrics (S)
   add header to "about" page (A)
   add correct links to header (for main, calendar, about pages) (A)
-  setup gh-pages (S)
+  - setup gh-pages (S)
 

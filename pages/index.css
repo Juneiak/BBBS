@@ -157,4 +157,11 @@
 @import url(../blocks/film/__image/film__image.css);
 
 
+/* facebook */
+@import url(../blocks/facebook/facebook.css);
+@import url(../blocks/facebook/__main/facebook__main.css);
+@import url(../blocks/facebook/__posts/facebook__posts.css);
+@import url(../blocks/facebook/__post/facebook__post.css);
+@import url(../blocks/facebook/__post-title/facebook__post-title.css);
+@import url(../blocks/facebook/__tag/facebook__tag.css);
 

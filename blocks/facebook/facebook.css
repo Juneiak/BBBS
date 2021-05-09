@@ -1,0 +1,15 @@
+.facebook {
+  display: flex;
+
+  justify-content: stretch;
+  align-items: stretch;
+  background-color: #F3F2F2;
+  padding: 30px 0;
+  margin: 0;
+
+
+}
+
+/*@media (max-width: 400px) {*/
+/*  */
+/*}*/
