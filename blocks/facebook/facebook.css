@@ -1,0 +1,16 @@
+.facebook {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: stretch;
+  background-color: #F3F2F2;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 790px) {
+  .facebook {
+    grid-template-columns: 1fr;
+  }
+}
