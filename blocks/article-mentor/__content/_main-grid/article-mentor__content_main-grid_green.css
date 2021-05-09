@@ -1,0 +1,21 @@
+.article-mentor__content_main-grid_green {
+  padding: 120px 400px 30px 400px;
+}
+
+@media screen and (max-width: 1440px) {
+  .article-mentor__content_main-grid_green {
+    padding: 120px 100px 30px 100px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .article-mentor__content_main-grid_green {
+    padding: 30px 40px 15px 40px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .article-mentor__content_main-grid_green {
+    padding: 30px 15px 15px 15px;
+  }
+}

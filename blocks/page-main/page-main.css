@@ -1,12 +1,24 @@
 .page-main {
-  padding-left: 75px;
+  /* padding-left: 75px;
   padding-right: 75px;
-  background-color: #F3F2F2;
+  background-color: #F3F2F2; */
   /* padding-top: 75px; */
+  padding-bottom: 120px;
 }
 
+@media screen and (max-width: 1024px) {
+  .page-main {
+    padding-bottom: 100px;
+  }
+}
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 400px) {
+  .page-main {
+    padding-bottom: 50px;
+  }
+}
+
+/* @media screen and (max-width: 1440px) {
   .page-main {
     padding-left: 135px;
     padding-right: 135px;
@@ -25,4 +37,4 @@
     padding-left: 15px;
     padding-right: 15px;
   }
-}
+} */
