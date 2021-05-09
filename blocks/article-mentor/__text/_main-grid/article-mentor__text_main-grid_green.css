@@ -1,0 +1,17 @@
+.article-mentor__text_main-grid_green {
+  padding-bottom: 71px;
+}
+
+@media screen and (max-width: 1024px) {
+  .article-mentor__text_main-grid_green {
+    font-size: 19px;
+    line-height: 23px;
+    padding-bottom: 181px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .article-mentor__text_main-grid_green {
+    padding-bottom: 66px;
+  }
+}

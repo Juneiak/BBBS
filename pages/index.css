@@ -1,6 +1,9 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/inter.css);
 
+/* page */
+@import url(../blocks/page/page.css);
+
 /* calendar-card */
 @import url(../blocks/calendar-card/calendar-card.css);
 @import url(../blocks/calendar-card/__content/calendar-card__content.css);
@@ -43,10 +46,17 @@
 @import url(../blocks/article-mentor/__article/_large/article-mentor__article_large_m.css);
 @import url(../blocks/article-mentor/__image/article-mentor__image.css);
 @import url(../blocks/article-mentor/_main-grid/article-mentor_main-grid_violet.css);
-@import url(../blocks/article-mentor/_main-grid/article-mentor_main-grid_yellow.css);
+
+@import url(../blocks/article-mentor/_main-grid/article-mentor_main-grid_yellow-first.css);
+@import url(../blocks/article-mentor/_main-grid/article-mentor_main-grid_yellow-second.css);
 @import url(../blocks/article-mentor/__text/_main-grid/article-mentor__text_main-grid.css);
+@import url(../blocks/article-mentor/__text/_main-grid/article-mentor__text_main-grid.css);
+@import url(../blocks/article-mentor/__text/_main-grid/article-mentor__text_main-grid_green.css);
+
+@import url(../blocks/article-mentor/__text/_yellow-second/article-mentor__text_yellow-second.css);
 @import url(../blocks/article-mentor/__media-block/article-mentor__media-block.css);
 @import url(../blocks/article-mentor/__content/_main-grid/article-mentor__content_main-grid.css);
+@import url(../blocks/article-mentor/__content/_main-grid/article-mentor__content_main-grid_green.css);
 
 
 /* article-child */
@@ -118,12 +128,16 @@
 
 
 /* section-second */
-@import url(../blocks/section-second/section-second.css);
+/* @import url(../blocks/section-second/section-second.css); */
 
 
 
 /* list-films */
 @import url(../blocks/list-films/list-films.css);
+
+/* video-block */
+@import url(../blocks/video-block/video-block.css);
+@import url(../blocks/video-block/__iframe/video-block__iframe.css);
 
 /* about */
 @import url(../blocks/about/about.css);
