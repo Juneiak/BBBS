@@ -15,4 +15,9 @@
 @import url(../blocks/filter-buttons/__list/filter-buttons__list.css);
 
 @import url(../blocks/calendar/calendar.css);
-@import url(../blocks/calender-table/calendar-table.css);
+@import url(../blocks/calendar/__table/calendar__table.css);
+
+
+@import url(../blocks/calendar-card/__about/calendar-card__about.css);
+@import url(../blocks/calendar-card/__about/_open/calendar-card__about_open.css);
+@import url(../blocks/calendar-card/_open/calendar-card_open.css);

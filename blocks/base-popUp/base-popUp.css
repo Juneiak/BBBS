@@ -1,11 +1,17 @@
 .base-popUp {
   display: flex;
   justify-content: center;
-  margin: auto;
-  width: 100%;
-  max-width: 770px;
+  max-width: 570px;
   min-width: 290px;
+  width: 90%;
   position: relative;
   border-radius: 30px;
   background-color: #FFFFFF;
-};
+  padding: 50px 100px 50px;
+}
+
+@media screen and (max-width: 900px) {
+  .base-popUp {
+    padding: 60px 15px 50px;
+  }
+}

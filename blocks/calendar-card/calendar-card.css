@@ -4,6 +4,7 @@
   border-radius: 30px;
   background-color: #fff;
   margin: 0;
+  list-style: none;
 }
 
 @media screen and (max-width: 1200px) {
