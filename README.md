@@ -3,7 +3,7 @@
 
 [gh-pages](https://yandex-prakticumnko.github.io/BBBS/)
 
-[gh-pages/main](https://yandex-prakticumnko.github.io/BBBS/calendar)
+[gh-pages/main](https://yandex-prakticumnko.github.io/BBBS/main)
 
 [gh-pages/calendar](https://yandex-prakticumnko.github.io/BBBS/calendar)
 
