@@ -9,25 +9,4 @@
   flex-wrap: wrap;
   height: 627px;
   overflow: hidden;
-  max-width: 1770px;
-}
-
-@media screen and (max-width: 1440px) {
-  .facebook__posts {
-    max-width: 1170px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .facebook__posts {
-    max-width: 770px;
-    height: auto;
-  }
-}
-
-
-@media screen and (max-width: 400px) {
-  .facebook__posts {
-    max-width: 290px;
-  }
 }
