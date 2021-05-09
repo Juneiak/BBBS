@@ -3,19 +3,18 @@
 
 [gh-pages](https://yandex-prakticumnko.github.io/BBBS/)
 
-[gh-pages/main](https://yandex-prakticumnko.github.io/BBBS/main)
-
 [gh-pages/calendar](https://yandex-prakticumnko.github.io/BBBS/calendar)
 
 [gh-pages/about](https://yandex-prakticumnko.github.io/BBBS/about)
 
 
-#gh-pages partials
+##gh-pages partials
+
 [gh-pages/footer](https://yandex-prakticumnko.github.io/BBBS/footer)
 
-[main_films](https://yandex-prakticumnko.github.io/BBBS/main_films)
+[main__films](https://yandex-prakticumnko.github.io/BBBS/main__films)
 
-[main_facebook](https://yandex-prakticumnko.github.io/BBBS/main_facebook)
+[main__facebook](https://yandex-prakticumnko.github.io/BBBS/main__facebook)
 
 [loginForm-popUp](https://yandex-prakticumnko.github.io/BBBS/loginForm-popUp)
 
