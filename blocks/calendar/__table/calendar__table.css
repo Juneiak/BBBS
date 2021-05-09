@@ -1,4 +1,4 @@
-.calendar-table {
+.calendar__table {
   margin: 0;
   padding: 0 0 120px;
   width: 90%;
@@ -10,28 +10,28 @@
 }
 
 @media screen and (max-width: 1800px) {
-  .calendar-table {
+  .calendar__table {
     grid-template-columns: repeat(2, 570px);
   }
 }
 
 
 @media screen and (max-width: 1200px) {
-  .calendar-table {
+  .calendar__table {
     grid-template-columns: repeat(2, 370px);
     padding-bottom: 100px;
   }
 }
 
 @media screen and (max-width: 900px) {
-  .calendar-table {
+  .calendar__table {
     grid-template-columns: repeat(1, 370px);
     padding-bottom: 50px;
   }
 }
 
 @media screen and (max-width: 420px) {
-  .calendar-table {
+  .calendar__table {
     grid-template-columns: repeat(1, 290px);
   }
 }
