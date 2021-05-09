@@ -17,6 +17,9 @@
 
 [main_facebook](https://yandex-prakticumnko.github.io/BBBS/main_facebook)
 
+[loginForm-popUp](https://yandex-prakticumnko.github.io/BBBS/loginForm-popUp)
+
+[calendarCard-popUp](https://yandex-prakticumnko.github.io/BBBS/calendarCard-popUp)
 
 
 
