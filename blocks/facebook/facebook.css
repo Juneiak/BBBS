@@ -1,7 +1,7 @@
 .facebook {
   display: flex;
 
-  justify-content: stretch;
+  justify-content: center;
   align-items: stretch;
   background-color: #F3F2F2;
   padding: 30px 0;
