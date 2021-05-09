@@ -1,7 +1,19 @@
 .facebook__main {
-  background-color: #C8D1FF;
+  background-image: url(../../../images/facebook-main.png);
   width: 420px;
   height: 627px;
   border-radius: 30px;
-  margin-right: 30px;
+  justify-self: center;
+}
+
+@media screen and (max-width: 1440px) {
+  .facebook__main {
+    width: 370px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .facebook__main {
+    width: 290px;
+  }
 }
