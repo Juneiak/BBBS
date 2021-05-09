@@ -10,3 +10,9 @@
   height: 627px;
   overflow: hidden;
 }
+
+@media (max-width: 790px) {
+  .facebook__posts {
+    height: auto;
+  }
+}
