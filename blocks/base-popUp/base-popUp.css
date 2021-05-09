@@ -3,10 +3,13 @@
   justify-content: center;
   max-width: 570px;
   width: 81%;
+  height: 100%;
   position: relative;
   border-radius: 30px;
   background-color: #FFFFFF;
   padding: 50px 100px 50px;
+  max-height: 670px;
+  margin-top: 50px; /* only for correct view */
 }
 
 @media screen and (max-width: 900px) {

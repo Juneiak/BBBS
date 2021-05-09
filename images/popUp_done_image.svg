@@ -1,0 +1,8 @@
+<svg width="413" height="169" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M37.54 57c-.3 0-.55.25-.55.55v55.9c0 .3.24.55.55.55h26.93a28.5 28.5 0 000-57H37.54z" fill="#FF8585"/>
+  <ellipse cx="181.44" cy="84.5" rx="84.47" ry="84.5" fill="#F8D162"/>
+  <ellipse cx="15.99" cy="86" rx="15.99" ry="16" fill="#C8D1FF"/>
+  <rect width="82.11" height="82.11" rx="3" transform="rotate(45.01 143.95 442.24)" fill="#C8D1FF"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M243.24 60.74a2.77 2.77 0 000-4.1l-13.68-12.8a3.25 3.25 0 00-4.38 0l-59.56 55.72-23.13-20.5a3.25 3.25 0 00-4.38.11l-13.3 13.12a2.77 2.77 0 00.1 4.1l36.03 31.95 2.82 2.64a3.25 3.25 0 004.39 0l75.09-70.24z" fill="#fff"/>
+  <circle cx="281.4" cy="86.5" fill="#8CDD94" r="11.5"/>
+</svg>

@@ -1,6 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/inter.css);
-@import url(../blocks/page/page.css);
+@import url(../blocks/page-calendar/page-calendar.css);
 
 @import url(../blocks/page-title/page-title.css);
 
@@ -22,3 +22,7 @@
 @import url(../blocks/calendar-card/__about/calendar-card__about.css);
 @import url(../blocks/calendar-card/__about/_open/calendar-card__about_open.css);
 @import url(../blocks/calendar-card/_open/calendar-card_open.css);
+
+@import url(../blocks/confirmation-popUp/__button-set/confirmation-popUp__button-set.css);
+@import url(../blocks/confirmation-popUp/confirmation-popUp.css);
+@import url(../blocks/confirmation-popUp/__image/confirmation-popUp__image.css);

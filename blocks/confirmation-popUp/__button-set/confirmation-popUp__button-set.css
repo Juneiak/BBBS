@@ -1,0 +1,7 @@
+.confirmation-popUp__button-set {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 320px;
+  width: 100%;
+}
