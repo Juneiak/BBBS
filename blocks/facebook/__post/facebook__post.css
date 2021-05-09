@@ -1,0 +1,34 @@
+.facebook__post {
+  background-color: white;
+  border-radius: 30px;
+  padding: 50px calc(100% - 770px) 50px 50px;
+  margin-bottom: 30px;
+}
+
+.facebook__post:last-child {
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 1440px) {
+  .facebook__post {
+    padding: 50px calc(100% - 670px) 50px 50px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .facebook__post {
+    padding: 50px calc(100% - 670px) 50px 50px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .facebook__post {
+    padding: 30px calc(100% - 340px) 30px 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .facebook__post {
+    padding: 30px calc(100% - 260px) 30px 15px;
+  }
+}

@@ -6,8 +6,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Big Brother Big Sisters Russia</title>
   <link rel="stylesheet" href="pages/index.css">
+  <link rel="stylesheet" href="pages/header.css">
 </head>
 <body>
+  <header class="header">
+    <form class="header__form" method="POST">
+      <button class="header__search-button header__search-button_left" type="button"></button>
+      <input class="header__search-input" type="text">
+    </form>
+    <a class="header__name" href="#" target="_self">наставники.про</a>
+    <nav class="header__links">
+      <a class="header__link" href="#" target="_self">КАЛЕНДАРЬ</a>
+      <a class="header__link" href="#" target="_self">КУДА ПОЙТИ</a>
+      <a class="header__link" href="#" target="_self">ВОПРОСЫ</a>
+      <div class="header__dropdown" id="subnav">
+        <a class="header__link" href="#" target="_self">ЧИТАТЬ И СМОТРЕТЬ</a>
+        <nav class="header__subnav">
+          <a class="header__sub-link" href="#" target="_self">Справочник</a>
+          <a class="header__sub-link" href="#" target="_self">Видео</a>
+          <a class="header__sub-link" href="#" target="_self">Статьи</a>
+          <a class="header__sub-link" href="#" target="_self">Фильмы</a>
+          <a class="header__sub-link" href="#" target="_self">Книги</a>
+        </nav>
+      </div>
+      <a class="header__link" href="#" target="_self">ПРАВА ДЕТЕЙ</a>
+      <a class="header__link" href="#" target="_self">ИСТОРИИ</a>
+    </nav>
+    <div class="header__nav">
+      <form class="header__form">
+        <button class="header__search-button" type="button"></button>
+        <input class="header__search-input" type="text">
+      </form>
+      <button class="header__profile-button" type="button"></button>
+    </div>
+    <div class="header__dropdown" id="menu">
+      <button class="header__menu-button" type="button"></button>
+      <div class="header__menu">
+        <nav class="header__menu-links header__menu-links_position_left">
+          <a class="header__link header__link_position_menu" href="#" target="_self">КАЛЕНДАРЬ</a>
+          <a class="header__link header__link_position_menu" href="#" target="_self">КУДА ПОЙТИ</a>
+          <a class="header__link header__link_position_menu" href="#" target="_self">ВОПРОСЫ</a>
+          <a class="header__link header__link_position_menu" href="#" target="_self">ЧИТАТЬ И СМОТРЕТЬ</a>
+          <a class="header__link header__link_position_menu" href="#" target="_self">ПРАВА ДЕТЕЙ</a>
+          <a class="header__link header__link_position_menu" href="#" target="_self">ИСТОРИИ</a>
+        </nav>
+        <nav class="header__menu-links header__menu-links_position_right">
+          <a class="header__link header__link_position_menu" href="#" target="_self">FACEBOOK</a>
+          <a class="header__link header__link_position_menu" href="#" target="_self">VKONTAKTE</a>
+          <a class="header__link header__link_position_menu" href="#" target="_self">INSTAGRAM</a>
+          <a class="header__link header__link_position_menu" href="#" target="_self">YOUTUBE</a>
+        </nav>
+        <button class="header__location-button" type="button">Москва. Изменить город</button>
+        <button class="header__profile-exit-button" type="button">Выйти</button>
+      </div>
+    </div>
+  </header>
+
   <main class="about">
     <h1 class="about__header">
       Наставники.про – цифоровая информационная платформа
