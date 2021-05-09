@@ -16,6 +16,7 @@
 
 @import url(../blocks/calendar/calendar.css);
 @import url(../blocks/calendar/__table/calendar__table.css);
+@import url(../blocks/calendar/__card/calendar__card.css);
 
 
 @import url(../blocks/calendar-card/__about/calendar-card__about.css);
