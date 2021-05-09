@@ -20,7 +20,7 @@
   .section-first__pink-block-main {
     padding-left: 15px;
     padding-right: 15px;
-    border-radius: 70px 70px 0 0;
+    border-radius: 70px 70px 30px 30px;
     height: 76.5%;
   }
 }

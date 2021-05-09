@@ -15,6 +15,7 @@
   height: 420px;
   overflow: hidden;
   max-width:  1920px;
+  margin-top: 30px;
 }
 
 @media (max-width: 1440px) {

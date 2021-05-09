@@ -6,6 +6,9 @@
 @import url(../blocks/page-calendar/page-calendar.css);
 @import url(../blocks/page-title/page-title.css);
 
+/* main */
+@import url(../blocks/main/main.css);
+
 /* button */
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_active/button_active_dark.css);
