@@ -1,0 +1,10 @@
+.answers__card {
+  display: flex;
+  align-items: start;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.answers__card:last-child {
+  margin-bottom: 0;
+}

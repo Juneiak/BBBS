@@ -1,0 +1,10 @@
+.ask__h2 {
+  margin-bottom: 24px;
+  max-width: 650px;
+}
+
+@media screen and (max-width: 1200px) {
+  .ask__h2 {
+    margin-bottom: 20px;
+  }
+}

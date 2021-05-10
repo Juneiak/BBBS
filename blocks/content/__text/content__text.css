@@ -1,0 +1,14 @@
+.content__text {
+  font-family: 'PTRootUIWebRegular';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .content__text {
+    font-size: 15px;
+  }
+}

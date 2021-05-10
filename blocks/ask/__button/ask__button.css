@@ -1,0 +1,8 @@
+.ask__button { 
+}
+
+@media screen and (max-width: 700px) {
+  .ask__button {
+    width: 100%;
+  }
+}

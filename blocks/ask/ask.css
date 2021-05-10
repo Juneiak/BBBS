@@ -1,0 +1,21 @@
+.ask {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-bottom: 120px;
+  max-width: 970px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .ask{
+    padding-bottom: 100px;
+    max-width: 770px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .ask {
+    padding-bottom: 50px;
+  }
+}

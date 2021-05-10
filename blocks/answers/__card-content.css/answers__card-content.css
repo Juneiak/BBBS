@@ -1,0 +1,13 @@
+.answers__card-content {
+  background-color: #FFF;
+  border-radius: 30px;
+  padding: 50px;
+  width: 100%;
+  max-width: 870px;
+}
+
+@media screen and (max-width: 1200px) {
+  .answers__card-content {
+    padding: 30px 15px;
+  }
+}

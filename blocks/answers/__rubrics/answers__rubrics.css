@@ -1,0 +1,12 @@
+.answers__rubrics {
+  display: flex;
+  margin-top: 15px;
+  align-items: start;
+}
+
+@media screen and (max-width: 1200px) {
+  .answers__rubrics {
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+}

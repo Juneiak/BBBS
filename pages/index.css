@@ -6,6 +6,30 @@
 @import url(../blocks/page-calendar/page-calendar.css);
 @import url(../blocks/page-title/page-title.css);
 
+/* answers */
+@import url(../blocks/content/content.css);
+@import url(../blocks/content/__h2/content__h2.css);
+@import url(../blocks/content/__text/content__text.css);
+
+@import url(../blocks/answers/answers.css);
+@import url(../blocks/answers/__list/answers__list.css);
+@import url(../blocks/answers/__card-button/answers__card-button.css);
+@import url(../blocks/answers/__card-button/_outside/answers__card-button_outside.css);
+@import url(../blocks/answers/__card-content.css/answers__card-content.css);
+@import url(../blocks/answers/__card/answers__card.css);
+@import url(../blocks/answers/__rubric/answers__rubric.css);
+@import url(../blocks/answers/__rubrics-list/answers__rubrics-list.css);
+@import url(../blocks/answers/__text/answers__text.css);
+@import url(../blocks/answers/__text/_open/answers__text_open.css);
+@import url(../blocks/answers/__rubrics/answers__rubrics.css);
+
+/* answers */
+@import url(../blocks/ask/ask.css);
+@import url(../blocks/ask/__h2/ask__h2.css);
+@import url(../blocks/ask/__form/ask__form.css);
+@import url(../blocks/ask/__input/ask__input.css);
+@import url(../blocks/ask/__button/ask__button.css);
+
 /* main */
 @import url(../blocks/main/main.css);
 

@@ -1,0 +1,11 @@
+.answers {
+  padding-bottom: 80px;
+  max-width: 970px;
+}
+
+@media screen and (max-width: 1200px) {
+  .answers {
+    padding-bottom: 50px;
+    max-width: 770px;
+  }
+}

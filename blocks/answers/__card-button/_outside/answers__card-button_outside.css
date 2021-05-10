@@ -1,0 +1,9 @@
+.answers__card-button_outside {
+  display: block;
+}
+
+@media screen and (max-width: 1200px) {
+  .answers__card-button_outside {
+    display: none;
+  }
+}

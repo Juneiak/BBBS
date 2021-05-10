@@ -1,0 +1,29 @@
+.ask__input {
+  border: none;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 30px;
+  font-family: 'PTRootUIWebRegular';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.36;
+  letter-spacing: 0.2px;
+  width: 100%;
+  padding: 13px 20px 16px;
+  outline: none;
+}
+
+@media screen and (max-width: 700px) {
+  .ask__input {
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .ask__input {
+    padding: 11px 15px 12px;
+    font-size: 12px;
+    line-height: 1.42;
+  }
+}
