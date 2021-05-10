@@ -7,6 +7,8 @@
 
 [gh-pages/about](https://yandex-prakticumnko.github.io/BBBS/about)
 
+[gh-pages/answers](https://yandex-prakticumnko.github.io/BBBS/answers)
+
 
 ##gh-pages partials
 
