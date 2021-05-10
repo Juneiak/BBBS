@@ -14,6 +14,8 @@
 
 [gh-pages/footer](https://yandex-prakticumnko.github.io/BBBS/footer)
 
+[gh-pages/header](https://yandex-prakticumnko.github.io/BBBS/header)
+
 [main__films](https://yandex-prakticumnko.github.io/BBBS/main__films)
 
 [main__facebook](https://yandex-prakticumnko.github.io/BBBS/main__facebook)
