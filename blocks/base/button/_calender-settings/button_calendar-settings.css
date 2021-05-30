@@ -1,0 +1,18 @@
+.button_calendar-settings {
+  background-image: url("../../../../images/base/buttonSettingsBlue.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 48px;
+  height: 48px;
+}
+
+.button_calendar-settings:active {
+  background-image: url("../../../../images/base/buttonSettingsWhite.svg");
+}
+
+@media screen and (max-width: 1200px)  {
+  .button_calendar-settings {
+    width: 40px;
+    height: 40px;
+  }
+}

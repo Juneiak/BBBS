@@ -1,0 +1,17 @@
+.calendar-card__places {
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #000;
+  padding-left: 15px;
+  font-family: PTRootUIWebRegular, Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 1200px)  {
+  .calendar-card__places {
+    font-size: 12px;
+    line-height: 17px;
+    padding-left: 10px;
+  }
+}

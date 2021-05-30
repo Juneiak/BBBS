@@ -1,0 +1,35 @@
+
+/* calendar-card */
+@import url(../blocks/calendarPage/calendar-card/calendar-card.css);
+@import url(../blocks/calendarPage/calendar-card/__header/calendar-card__header.css);
+@import url(../blocks/calendarPage/calendar-card/__main/calendar-card__main.css);
+@import url(../blocks/calendarPage/calendar-card/__people/calendar-card__people.css);
+@import url(../blocks/calendarPage/calendar-card/__month/calendar-card__month.css);
+@import url(../blocks/calendarPage/calendar-card/__name/calendar-card__name.css);
+@import url(../blocks/calendarPage/calendar-card/__date/calendar-card__date.css);
+@import url(../blocks/calendarPage/calendar-card/__info/calendar-card__info.css);
+@import url(../blocks/calendarPage/calendar-card/__actions/calendar-card__actions.css);
+@import url(../blocks/calendarPage/calendar-card/__places/calendar-card__places.css);
+@import url(../blocks/calendarPage/calendar-card/__info-item/calendar-card__info-item.css);
+@import url(../blocks/calendarPage/calendar-card/_main-grid/calendar-card_main-grid.css);
+@import url(../blocks/calendarPage/calendar-card/__info/calendar-card__info.css);
+@import url(../blocks/calendarPage/calendar-card/_page-main/calendar-card_page-main.css);
+@import url(../blocks/calendarPage/calendar-card/__about/calendar-card__about.css);
+@import url(../blocks/calendarPage/calendar-card/__about/_state/calendar-card__about_state_open.css);
+
+/* calendar-card popup */
+@import url(../blocks/calendarPage/calendar-card/__date/_popup/calendar-card__date_popup.css);
+@import url(../blocks/calendarPage/calendar-card/__name/_popup/calendar-card__name_popup.css);
+@import url(../blocks/calendarPage/calendar-card/__header/_popup/calendar-card__header_popup.css);
+@import url(../blocks/calendarPage/calendar-card/__info-item/_popup/calendar-card__info-item_popup.css);
+@import url(../blocks/calendarPage/calendar-card/__places/_popup/calendar-card__places_popup.css);
+
+/* calendar */
+@import url(../blocks/calendarPage/calendar/calendar.css);
+@import url(../blocks/calendarPage/calendar/__card-wrapper/calendar__card-wrapper.css);
+@import url(../blocks/calendarPage/calendar/__card-wrapper/_active/calendar__card-wrapper_active.css);
+
+/* confirmation-popUp */
+@import url(../blocks/calendarPage/confirmation-popUp/__button-set/confirmation-popUp__button-set.css);
+@import url(../blocks/calendarPage/confirmation-popUp/confirmation-popUp.css);
+@import url(../blocks/calendarPage/confirmation-popUp/__image/confirmation-popUp__image.css);

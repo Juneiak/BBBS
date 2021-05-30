@@ -1,0 +1,19 @@
+/* answers */
+@import url(../blocks/answersPage/answers/answers.css);
+@import url(../blocks/answersPage/answers/__list/answers__list.css);
+@import url(../blocks/answersPage/answers/__card-button/answers__card-button.css);
+@import url(../blocks/answersPage/answers/__card-button/_outside/answers__card-button_outside.css);
+@import url(../blocks/answersPage/answers/__card-content.css/answers__card-content.css);
+@import url(../blocks/answersPage/answers/__card/answers__card.css);
+@import url(../blocks/answersPage/answers/__rubric/answers__rubric.css);
+@import url(../blocks/answersPage/answers/__rubrics-list/answers__rubrics-list.css);
+@import url(../blocks/answersPage/answers/__text/answers__text.css);
+@import url(../blocks/answersPage/answers/__text/_open/answers__text_open.css);
+@import url(../blocks/answersPage/answers/__rubrics/answers__rubrics.css);
+
+/* answers */
+@import url(../blocks/answersPage/ask/ask.css);
+@import url(../blocks/answersPage/ask/__h2/ask__h2.css);
+@import url(../blocks/answersPage/ask/__form/ask__form.css);
+@import url(../blocks/answersPage/ask/__input/ask__input.css);
+@import url(../blocks/answersPage/ask/__button/ask__button.css);

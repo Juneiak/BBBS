@@ -1,0 +1,7 @@
+@media screen and (min-width: 900px)  {
+  .calendar-card__places_popup {
+    font-size: 14px;
+    line-height: 19px;
+    padding-left: 20px;
+  }
+}

@@ -5,10 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Big Brother Big Sisters Russia Calendar</title>
-  <link rel="stylesheet" href="pages/index.css">
+  <link rel="stylesheet" href="pages/common.css">
+  <link rel="stylesheet" href="pages/base.css">
+  <link rel="stylesheet" href="pages/calendar.css">
 </head>
 <body>
-  <div class="page-calendar">
+  <div class="page">
+
     <header class="header">
       <form class="header__form" method="POST">
         <button class="header__search-button header__search-button_left" type="button"></button>
@@ -60,10 +63,9 @@
             <button class="header__profile-exit-button" type="button">Выйти</button>
           </div>
       </div>
-      
     </header>
 
-    <main class="calendar">
+    <main class="content">
       <h1 class="page-title">Календарь</h1>
       <section class="filter-buttons">
         <ul class="filter-buttons__list">
@@ -75,8 +77,9 @@
         </ul>
       </section>
 
-      <ul class="calendar__table">
-        <li class="calendar__card">
+      <ul class="calendar">
+        
+        <li class="calendar__card-wrapper calendar__card-wrapper_active">
           <div class="calendar-card">
             <div class="calendar-card__header">
               <span class="calendar-card__people">Волонтёры + дети</span>
@@ -97,23 +100,23 @@
 
             <div class="calendar-card__actions">
               <div class="calendar-card__entry">
-                <button class="button button_active_blue" type="submit">Записаться</button>
+                <button class="button button_active_blue" type="button">Записаться</button>
                 <span class="calendar-card__places">Осталось 5 мест</span>
               </div>
-              <button class="button button_active_blue button_calendar-settings" type="submit"></button>
+              <button class="button button_active_blue button_calendar-settings" type="button"></button>
             </div>
           </div>
         </li>
         
-        <li class="calendar__card">
+        <li class="calendar__card-wrapper">
           <div class="calendar-card">
             <div class="calendar-card__header">
-              <span class="calendar-card__people">Волонтёры + дети</span>
+              <span class="calendar-card__people">Волонтёры</span>
               <span class="calendar-card__month">декабрь / понедельник</span>
             </div>
             <div class="calendar-card__main">
-                <h2 class="calendar-card__name">Субботний meet up: учимся проходить интервью</h2>
-                <span class="calendar-card__date">05</span>
+                <h2 class="calendar-card__name">Ресурсная группа «Вовлечение в волонтёрство»</h2>
+                <span class="calendar-card__date">23</span>
             </div>
 
             <div class="calendar-card__info">
@@ -126,15 +129,15 @@
 
             <div class="calendar-card__actions">
               <div class="calendar-card__entry">
-                <button class="button button_active_blue" type="submit">Записаться</button>
+                <button class="button button_active_blue" type="button">Записаться</button>
                 <span class="calendar-card__places">Осталось 5 мест</span>
               </div>
-              <button class="button button_active_blue button_calendar-settings" type="submit"></button>
+              <button class="button button_active_blue button_calendar-settings" type="button"></button>
             </div>
           </div>
         </li>
 
-        <li class="calendar__card">
+        <li class="calendar__card-wrapper">
           <div class="calendar-card">
             <div class="calendar-card__header">
               <span class="calendar-card__people">Волонтёры + дети</span>
@@ -155,10 +158,10 @@
 
             <div class="calendar-card__actions">
               <div class="calendar-card__entry">
-                <button class="button button_active_blue" type="submit">Записаться</button>
+                <button class="button button_active_blue" type="button">Записаться</button>
                 <span class="calendar-card__places">Осталось 5 мест</span>
               </div>
-              <button class="button button_active_blue button_calendar-settings" type="submit"></button>
+              <button class="button button_active_blue button_calendar-settings" type="button"></button>
             </div>
           </div>
         </li>
@@ -205,6 +208,67 @@
       </div>
     </footer>
 
+
+    <div class="base-popUp" id="calendarCard">
+      <div class="base-popUp__content">
+        <button class="base-popUp__close-button" type="button"></button>
+        
+        <div class="calendar-card">
+          <div class="calendar-card__header calendar-card__header_popup">
+            <span class="calendar-card__people">Волонтёры + дети</span>
+            <span class="calendar-card__month">декабрь / понедельник</span>
+          </div>
+          <div class="calendar-card__main">
+              <h2 class="calendar-card__name calendar-card__name_popup">Субботний meet up: учимся проходить интервью</h2>
+              <span class="calendar-card__date calendar-card__date_popup">05</span>
+          </div>
+  
+          <div class="calendar-card__info">
+            <p class="calendar-card__info-item calendar-card__info-item_popup">12:00 - 14:00</p>
+            <p class="calendar-card__info-item calendar-card__info-item_popup">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
+            <p class="calendar-card__info-item calendar-card__info-item_popup">Александра, +7 926 356-78-90</p>
+          </div>
+  
+          <p class="calendar-card__about calendar-card__about_state_open">Наконец-то наступила весна и мы пережили эту долгую зиму! И возможно, что внутренних сил и ресурса сейчас не так много, а до окончания учебного года ещё целых несколько месяцев. Поэтому приглашаем вас на встречу нашего ресурсного клуба "Наставник PRO", которую мы хотим посвятить теме поиска моральных сил, смыслов и внутреннего ресурса для общения и взаимодействия с нашими подопечными. </p>
+  
+          <div class="calendar-card__actions">
+            <div class="calendar-card__entry">
+              <button class="button button_active_blue" id="signupButton" type="submit">Записаться</button>
+              <span class="calendar-card__places calendar-card__places_popup">Осталось 5 мест</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+    <div class="base-popUp" id="confirm">
+      <div class="base-popUp__content">
+        <button class="base-popUp__close-button"></button>
+        <div class="confirmation-popUp">
+          <p class=base-popUp__text>Подтвердить запись на мероприятие «Субботний meet up: учимся проходить интервью» 5 декабря с 12:00–14:00</p>
+          <div class="confirmation-popUp__button-set" >
+            <button class="button button_active_blue" id="confirmationButton" type="button">Подтвердить запись</button>
+            <button class="button button_active_dark" id="canselButton" type="button">Отмена</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="base-popUp" id="confirmed">
+      <div class="base-popUp__content">
+        <button class="base-popUp__close-button" type="button"></button>
+        <div class="confirmation-popUp">
+          <img class="confirmation-popUp__image" src="./images/base/popUp_done_image.svg" alt="done image">
+          <p class=base-popUp__text>Вы записаны на мероприятие «Субботний meet up: учимся проходить интервью» 5 декабря с 12:00–14:00.
+          <p class=base-popUp__text>Если у вас не получится прийти — отмените, пожалуйста, запись.</p>
+          <button class="button button_active_dark" id="backButton" type="button">Вернуться к календарю</button>
+        </div>
+      </div>
+    </div>
+
+
   </div>
+  <script src="./components/calendar.js"></script>
 </body>
 </html>

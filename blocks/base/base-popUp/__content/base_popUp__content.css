@@ -1,0 +1,23 @@
+.base-popUp__content {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  border-radius: 30px;
+  background-color: #FFFFFF;
+  padding: 50px 100px 50px;
+  max-height: 670px;
+  max-width: 770px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 900px) {
+  .base-popUp__content {
+    padding: 60px 15px 50px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .base-popUp__content {
+    max-width: 90%;
+  }
+}
