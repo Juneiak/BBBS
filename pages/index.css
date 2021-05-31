@@ -4,12 +4,7 @@
 @import url(../blocks/main/main.css);
 
 
-/* logIn-popUp */
-@import url(../blocks/loginForm-popUp/loginForm-popUp.css);
-@import url(../blocks/loginForm-popUp/__answer/loginForm-popUp__answer.css);
-@import url(../blocks/loginForm-popUp/__forgot-button/loginForm-popUp__forgot-button.css);
-@import url(../blocks/loginForm-popUp/__title/loginForm-popUp__title.css);
-@import url(../blocks/loginForm-popUp/__answers/loginForm-popUp__answers.css);
+
 
 /* article-mentor */
 @import url(../blocks/article-mentor/article-mentor.css);

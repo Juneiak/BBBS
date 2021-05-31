@@ -1,3 +1,10 @@
 .header__dropdown {
   grid-area: right;
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .header__dropdown {
+    display: block;
+  }
 }

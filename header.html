@@ -10,26 +10,26 @@
 </head>
 <body>
   <div class="page">
-    <header class="header">
 
+    <header class="header">
       <div class="header__content">
         <a class="header__name" href="#" target="_self">наставники.про</a>
         <nav class="header__links">
-          <a class="header__link" href="#" target="_self">КАЛЕНДАРЬ</a>
-          <a class="header__link" href="#" target="_self">КУДА ПОЙТИ</a>
-          <a class="header__link" href="#" target="_self">ВОПРОСЫ</a>
-          <div class="header__dropdown" id="subnav">
-            <a class="header__link" href="#" target="_self">ЧИТАТЬ И СМОТРЕТЬ</a>
+          <a class="header__link link-animation" href="#" target="_self">КАЛЕНДАРЬ</a>
+          <a class="header__link link-animation" href="#" target="_self">КУДА ПОЙТИ</a>
+          <a class="header__link link-animation" href="#" target="_self">ВОПРОСЫ</a>
+          <div id="subnav-dropdown">
+            <a class="header__link link-animation" href="#" target="_self">ЧИТАТЬ И СМОТРЕТЬ</a>
             <nav class="header__subnav">
-              <a class="header__sub-link" href="#" target="_self">Справочник</a>
-              <a class="header__sub-link" href="#" target="_self">Видео</a>
-              <a class="header__sub-link" href="#" target="_self">Статьи</a>
-              <a class="header__sub-link" href="#" target="_self">Фильмы</a>
-              <a class="header__sub-link" href="#" target="_self">Книги</a>
+              <a class="header__sub-link link-animation" href="#" target="_self">Справочник</a>
+              <a class="header__sub-link link-animation" href="#" target="_self">Видео</a>
+              <a class="header__sub-link link-animation" href="#" target="_self">Статьи</a>
+              <a class="header__sub-link link-animation" href="#" target="_self">Фильмы</a>
+              <a class="header__sub-link link-animation" href="#" target="_self">Книги</a>
             </nav>
           </div>
-          <a class="header__link" href="#" target="_self">ПРАВА ДЕТЕЙ</a>
-          <a class="header__link" href="#" target="_self">ИСТОРИИ</a>
+          <a class="header__link link-animation" href="#" target="_self">ПРАВА ДЕТЕЙ</a>
+          <a class="header__link link-animation" href="#" target="_self">ИСТОРИИ</a>
         </nav>
   
         <div class="header__search">
@@ -37,34 +37,146 @@
             <button class="header__search-button" type="button"></button>
             <input class="header__search-input" type="text">
           </form>
-          <button class="header__profile-button header__profile-button_opened" type="button"></button>
+          <button class="header__profile-button" type="button"></button>
         </div>
   
         <div class="header__dropdown" id="menu">
-          <button class="header__menu-button" type="button"></button>
+            <button class="header__menu-button" type="button"></button>
             <div class="header__menu">
               <nav class="header__menu-links header__menu-links_position_left">
-                <a class="header__link header__link_position_menu" href="#" target="_self">КАЛЕНДАРЬ</a>
-                <a class="header__link header__link_position_menu" href="#" target="_self">КУДА ПОЙТИ</a>
-                <a class="header__link header__link_position_menu" href="#" target="_self">ВОПРОСЫ</a>
-                <a class="header__link header__link_position_menu" href="#" target="_self">ЧИТАТЬ И СМОТРЕТЬ</a>
-                <a class="header__link header__link_position_menu" href="#" target="_self">ПРАВА ДЕТЕЙ</a>
-                <a class="header__link header__link_position_menu" href="#" target="_self">ИСТОРИИ</a>
+                <a class="header__link header__link_position_menu link-animation" href="#" target="_self">КАЛЕНДАРЬ</a>
+                <a class="header__link header__link_position_menu link-animation" href="#" target="_self">КУДА ПОЙТИ</a>
+                <a class="header__link header__link_position_menu link-animation" href="#" target="_self">ВОПРОСЫ</a>
+                <a class="header__link header__link_position_menu link-animation" href="#" target="_self">ЧИТАТЬ И СМОТРЕТЬ</a>
+                <a class="header__link header__link_position_menu link-animation" href="#" target="_self">ПРАВА ДЕТЕЙ</a>
+                <a class="header__link header__link_position_menu link-animation" href="#" target="_self">ИСТОРИИ</a>
               </nav>
               <nav class="header__menu-links header__menu-links_position_right">
-                <a class="header__link header__link_position_menu" href="#" target="_self">FACEBOOK</a>
-                <a class="header__link header__link_position_menu" href="#" target="_self">VKONTAKTE</a>
-                <a class="header__link header__link_position_menu" href="#" target="_self">INSTAGRAM</a>
-                <a class="header__link header__link_position_menu" href="#" target="_self">YOUTUBE</a>
+                <a class="header__link header__link_position_menu link-animation" href="#" target="_self">FACEBOOK</a>
+                <a class="header__link header__link_position_menu link-animation" href="#" target="_self">VKONTAKTE</a>
+                <a class="header__link header__link_position_menu link-animation" href="#" target="_self">INSTAGRAM</a>
+                <a class="header__link header__link_position_menu link-animation" href="#" target="_self">YOUTUBE</a>
               </nav>
-              <button class="header__location-button" type="button">Москва. Изменить город</button>
-              <button class="header__profile-exit-button" type="button">Выйти</button>
+              <button class="header__location-button link-animation" type="button">Москва. Изменить город</button>
+              <button class="header__profile-exit-button link-animation" type="button">Выйти</button>
             </div>
         </div>
-      </div>
-      
+      </div>  
     </header>
 
+    <div class="base-popUp" id="loginForm">
+      <div class="base-popUp__content">
+        <button class="base-popUp__close-button"></button>
+        <form class="loginForm-popUp" method="POST">
+          <h2 class="base-popUp__text">Вход</h2>
+          <div class="loginForm-popUp__answers">
+            <p class="loginForm-popUp__answer">Вход в личный кабинет доступен наставникам программы «Старшие Братья Старшие Сёстры».</p>
+            <p class="loginForm-popUp__answer">Пожалуйста, введите логин и пароль из письма. Если вам не приходило письмо, свяжитесь с вашим куратором.</p>
+          </div>
+          <input class="input" type="text" value="" placeholder="Логин">
+          <input class="input" type="text" value="" placeholder="Пороль">
+          <button class="loginForm-popUp__forgot-button" type="button">Забыли пороль?</button>
+          <button class="button button_loginForm-popUp" type="button">Войти</button>
+      </form>
+      </div>
+    </div>
+
+    <div class="base-popUp" id="locationForm">
+      <div class="base-popUp__content base-popUp__content_position_location">
+        <button class="base-popUp__close-button"></button>
+        <form class="locationForm-popUp" method="POST">
+          <h2 class="base-popUp__text base-popUp__text_position_cities">Выберите ваш город</h2>
+
+          <ul class="locationForm-popUp__cities-list locationForm-popUp__cities-list_major-cities">
+            <li class="locationForm-popUp__city locationForm-popUp__city_major-cities">
+              <label class="loctionForm-popUp__label">
+                <input class="locationForm-popUp__radioButton" name="city" type="radio" value="Санкт-Петербург">
+                <span class="locationForm-popUp__pceudo link-animation">Москва</span>
+              </label>
+            </li>
+            <li class="locationForm-popUp__city locationForm-popUp__city_major-cities">
+              <label class="loctionForm-popUp__label">
+                <input class="locationForm-popUp__radioButton" name="city" type="radio" value="Санкт-Петербург">
+                <span class="locationForm-popUp__pceudo link-animation">Санкт-Петербург</span>
+              </label>
+            </li>
+          </ul>
+
+          <ul class="locationForm-popUp__cities-list">
+            <li class="locationForm-popUp__city locationForm-popUp__city_major-cities">
+              <label class="loctionForm-popUp__label">
+                <input class="locationForm-popUp__radioButton" name="city" type="radio" value="Санкт-Петербург">
+                <span class="locationForm-popUp__pceudo link-animation">Алексин</span>
+              </label>
+            </li>
+            <li class="locationForm-popUp__city locationForm-popUp__city_major-cities">
+              <label class="loctionForm-popUp__label">
+                <input class="locationForm-popUp__radioButton" name="city" type="radio" value="Санкт-Петербург">
+                <span class="locationForm-popUp__pceudo link-animation">Барнаул</span>
+              </label>
+            </li>
+            <li class="locationForm-popUp__city locationForm-popUp__city_major-cities">
+              <label class="loctionForm-popUp__label">
+                <input class="locationForm-popUp__radioButton" name="city" type="radio" value="Санкт-Петербург">
+                <span class="locationForm-popUp__pceudo link-animation">Екатеринбург</span>
+              </label>
+            </li>
+            <li class="locationForm-popUp__city locationForm-popUp__city_major-cities">
+              <label class="loctionForm-popUp__label">
+                <input class="locationForm-popUp__radioButton" name="city" type="radio" value="Санкт-Петербург">
+                <span class="locationForm-popUp__pceudo link-animation">Зубцов</span>
+              </label>
+            </li>
+            <li class="locationForm-popUp__city locationForm-popUp__city_major-cities">
+              <label class="loctionForm-popUp__label">
+                <input class="locationForm-popUp__radioButton" name="city" type="radio" value="Санкт-Петербург">
+                <span class="locationForm-popUp__pceudo link-animation">Калининград</span>
+              </label>
+            </li>
+            <li class="locationForm-popUp__city locationForm-popUp__city_major-cities">
+              <label class="loctionForm-popUp__label">
+                <input class="locationForm-popUp__radioButton" name="city" type="radio" value="Санкт-Петербург">
+                <span class="locationForm-popUp__pceudo link-animation">Киреевск</span>
+              </label>
+            </li>
+            <li class="locationForm-popUp__city locationForm-popUp__city_major-cities">
+              <label class="loctionForm-popUp__label">
+                <input class="locationForm-popUp__radioButton" name="city" type="radio" value="Санкт-Петербург">
+                <span class="locationForm-popUp__pceudo link-animation">Коломна</span>
+              </label>
+            </li>
+            <li class="locationForm-popUp__city locationForm-popUp__city_major-cities">
+              <label class="loctionForm-popUp__label">
+                <input class="locationForm-popUp__radioButton" name="city" type="radio" value="Санкт-Петербург">
+                <span class="locationForm-popUp__pceudo link-animation">Новомосковск</span>
+              </label>
+            </li>
+            <li class="locationForm-popUp__city locationForm-popUp__city_major-cities">
+              <label class="loctionForm-popUp__label">
+                <input class="locationForm-popUp__radioButton" name="city" type="radio" value="Санкт-Петербург">
+                <span class="locationForm-popUp__pceudo link-animation">Орехово-Зуево</span>
+              </label>
+            </li>
+            <li class="locationForm-popUp__city locationForm-popUp__city_major-cities">
+              <label class="loctionForm-popUp__label">
+                <input class="locationForm-popUp__radioButton" name="city" type="radio" value="Санкт-Петербург">
+                <span class="locationForm-popUp__pceudo link-animation">Тверь</span>
+              </label>
+            </li>
+            <li class="locationForm-popUp__city locationForm-popUp__city_major-cities">
+              <label class="loctionForm-popUp__label">
+                <input class="locationForm-popUp__radioButton" name="city" type="radio" value="Санкт-Петербург">
+                <span class="locationForm-popUp__pceudo link-animation">Тула</span>
+              </label>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </div>
+
   </div>
+
+  
+  <script src="./components/header.js"></script>
 </body>
 </html>

@@ -1,0 +1,10 @@
+.loctionForm-popUp__label {
+  font-family: 'ProtoGroteskLight';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  position: relative;
+  display: inline-block;
+}

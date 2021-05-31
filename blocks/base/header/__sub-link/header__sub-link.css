@@ -9,9 +9,6 @@
   text-align: left;
 }
 
-.header__sub-link:hover {
-  color: #224CFF;
-}
 .header__sub-link:last-child {
   margin-bottom: 0;
 }

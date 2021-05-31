@@ -4,6 +4,9 @@
 @import url(../blocks/base/base-popUp/__text/base-popUp__text.css);
 @import url(../blocks/base/base-popUp/__content/base_popUp__content.css);
 @import url(../blocks/base/base-popUp/_opened/base-popUp_opened.css);
+@import url(../blocks/base/base-popUp/__text/_position/base-popUp__text_position_confirmation.css);
+@import url(../blocks/base/base-popUp/__text/_position/base-popUp__text_position_cities.css);
+@import url(../blocks/base/base-popUp/__content/_position/base-popUp__content_position_location.css);
 
 /* button */
 @import url(../blocks/base/button/button.css);
@@ -42,8 +45,26 @@
 @import url(../blocks/base/header/__location-button/header__location-button.css);
 @import url(../blocks/base/header/__link/_position/header__link_position_menu.css);
 @import url(../blocks/base/header/__content/header__content.css);
-
 @import url(../blocks/base/header/__search/header__search.css);
+@import url(../blocks/base/header/__menu-button/_opened/header__menu-button_opened.css);
+@import url(../blocks/base/header/__menu/_opened/header__menu_opened.css);
+@import url(../blocks/base/header/__profile-button/_authorized/header__profile-button_authorized.css);
+@import url(../blocks/base/header/__profile-button/__opened/header__profile-button_opened.css);
+
+/* logIn-popUp */
+@import url(../blocks/base/loginForm-popUp/loginForm-popUp.css);
+@import url(../blocks/base/loginForm-popUp/__answer/loginForm-popUp__answer.css);
+@import url(../blocks/base/loginForm-popUp/__forgot-button/loginForm-popUp__forgot-button.css);
+@import url(../blocks/base/loginForm-popUp/__answers/loginForm-popUp__answers.css);
+
+/* locationForm-popup */
+@import url(../blocks/base/locationForm-popUp/locationForm-popUp.css);
+@import url(../blocks/base/locationForm-popUp/__radioButton/locationForm-popUp__radioButton.css);
+@import url(../blocks/base/locationForm-popUp/__pceudo/locationForm-popUp__pceudo.css);
+@import url(../blocks/base/locationForm-popUp/__label/loctionForm-popUp__label.css);
+@import url(../blocks/base/locationForm-popUp/__city/locationForm-popUp__city.css);
+@import url(../blocks/base/locationForm-popUp/__cities-list/locationForm-popUp__cities-list.css);
+@import url(../blocks/base/locationForm-popUp/__cities-list/_major-cities/locationForm-popUp__cities-list_major-cities.css);
 
 /* footer */
 @import url(../blocks/base/footer/footer.css);

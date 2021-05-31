@@ -10,5 +10,6 @@
 @import url(../blocks/common/content/__h2/content__h2.css);
 @import url(../blocks/common/content/__text/content__text.css);
 
-
+/* link-animation */
+@import url(../blocks/common/link-animation/link-animation.css);
 

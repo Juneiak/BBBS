@@ -8,6 +8,7 @@
   text-decoration: none;
   grid-area: left;
   text-align: center;
+  transition: color 0.15s linear;
 }
 
 .header__name:hover {

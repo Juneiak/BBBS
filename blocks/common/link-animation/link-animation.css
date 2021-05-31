@@ -1,0 +1,8 @@
+.link-animation {
+  transition: color 0.15s linear;
+  cursor: pointer;
+}
+
+.link-animation:hover {
+  color: #224CFF;
+}

@@ -1,0 +1,7 @@
+@media screen and (max-width: 900px) {
+  .base-popUp__content_position_location {
+    padding: 30px 15px 60px;
+    max-width: 100%;
+    max-height: 630px;
+  }
+}

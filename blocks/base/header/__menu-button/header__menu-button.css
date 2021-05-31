@@ -1,5 +1,5 @@
 .header__menu-button {
-  display: none;
+  display: block;
   background-image: url(../../../../images/header/menu-button.svg);
   background-position: center;
   background-repeat: no-repeat;
@@ -9,15 +9,10 @@
   height: 30px;
   background-color: rgba(0, 0, 0, 0);
   padding: 0;
+  transition: opacity 0.15s linear;
 }
 
-#menu:hover .header__menu-button {
-  background-image: url(../../../../images/base/close-button.svg);
+.header__menu-button:hover {
+  cursor: pointer;
+  opacity: 0.5;
 }
-
-@media screen and (max-width: 1200px) {
-  .header__menu-button {
-    display: block;
-  }
-}
-

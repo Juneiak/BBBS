@@ -1,0 +1,8 @@
+.locationForm-popUp__city {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.locationForm-popUp__city:last-child {
+  margin-bottom: 0
+}

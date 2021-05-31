@@ -1,0 +1,12 @@
+.locationForm-popUp__radioButton {
+  position:absolute;
+  width: 1;
+  height: 1;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.locationForm-popUp__radioButton:checked + .locationForm-popUp__pceudo {
+  color: #224CFF;
+  cursor: default;
+}

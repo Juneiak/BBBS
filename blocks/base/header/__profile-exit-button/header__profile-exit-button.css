@@ -11,4 +11,10 @@
   color: #A7A6A6;
   justify-self: end;
   padding: 0;
+  transition: color 0.15s linear;
+}
+
+.header__profile-exit-button:hover {
+  color: #224CFF;
+  cursor: pointer;
 }

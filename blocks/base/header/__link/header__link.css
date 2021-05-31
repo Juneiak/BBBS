@@ -6,12 +6,8 @@
   font-size: 14px;
   line-height: 1.2s;
   margin-right: 30px;
-  
 }
 
-.header__link:hover {
-  color: #224CFF;
-}
 
 .header__link:last-child {
   margin: 0;
