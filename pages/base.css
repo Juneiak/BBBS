@@ -29,7 +29,6 @@
 @import url(../blocks/base/header/__search-button/header__search-button.css);
 @import url(../blocks/base/header/__nav/header__nav.css);
 @import url(../blocks/base/header/__menu-button/header__menu-button.css);
-@import url(../blocks/base/header/__search-button/_left/header__search-button_left.css);
 @import url(../blocks/base/header/__dropdown/header__dropdown.css);
 @import url(../blocks/base/header/__subnav/header__subnav.css);
 @import url(../blocks/base/header/__sub-link/header__sub-link.css);
@@ -42,6 +41,9 @@
 @import url(../blocks/base/header/__profile-exit-button/header__profile-exit-button.css);
 @import url(../blocks/base/header/__location-button/header__location-button.css);
 @import url(../blocks/base/header/__link/_position/header__link_position_menu.css);
+@import url(../blocks/base/header/__content/header__content.css);
+
+@import url(../blocks/base/header/__search/header__search.css);
 
 /* footer */
 @import url(../blocks/base/footer/footer.css);

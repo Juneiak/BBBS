@@ -4,9 +4,9 @@
   background-position: center;
   background-repeat: no-repeat;
   border: none;
-  background-size: cover;
+  background-size: 30px 20px;
   width: 30px;
-  height: 20px;
+  height: 30px;
   background-color: rgba(0, 0, 0, 0);
   padding: 0;
 }

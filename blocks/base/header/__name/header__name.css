@@ -3,9 +3,11 @@
   font-style: normal;
   font-weight: 300;
   font-size: 25px;
-  line-height: 1.12;
+  line-height: 30px;
   color: #224CFF;
   text-decoration: none;
+  grid-area: left;
+  text-align: center;
 }
 
 .header__name:hover {
@@ -15,5 +17,15 @@
 @media screen and (max-width: 1200px) {
   .header__name {
     font-size: 17.5px;
+    line-height: 20px;
+    grid-area: none;
+    width: 140px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 10;
   }
 }

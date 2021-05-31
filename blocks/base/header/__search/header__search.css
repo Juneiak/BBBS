@@ -1,0 +1,12 @@
+.header__search {
+  display: flex;
+  align-items: center;
+  grid-area: right;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .header__search  {
+    grid-area: left;
+  }
+}

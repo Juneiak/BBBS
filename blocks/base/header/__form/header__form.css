@@ -1,10 +1,13 @@
 .header__form {
   display: flex;
+  padding-right: 15px;
+  border-right: solid 0.7px #A7A6A6;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .header__form {
-    flex-direction: column;
+    padding-right: 0;
+    border: none;
   }
 }
 

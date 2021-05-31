@@ -1,0 +1,23 @@
+.header__content {
+  grid-template-columns: repeat(3, max-content);
+  justify-content: space-between;
+  grid-template-areas: 
+  'left center right';
+  position: relative;
+  display: grid;
+  /* width: 100%; */
+}
+
+@media screen and (max-width: 1200px) {
+  .header__content  {
+    grid-template-columns: repeat(2, max-content);
+    grid-template-areas: 
+    'left right';
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header__content  {
+    padding: 0 15px;
+  }
+}
