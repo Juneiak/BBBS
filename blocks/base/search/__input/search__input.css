@@ -12,6 +12,8 @@
   background-color: #F3F2F2;
   width: 0;
   transition: width linear 0.2s;
+/*   
+  width: 800px; */
 }
 
 .search:hover .search__input {

@@ -1,0 +1,19 @@
+.search__content {
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+  width: 30px;
+  height: 30px;
+  transition: width linear 0.2s;
+  z-index: 10;
+  background-color: #F3F2F2;
+  display: grid;
+  grid-template-rows: 30px max-content;
+
+/* 
+  width: 800px; */
+}
+
+.search:hover .search__content {
+  width: 800px;
+}

@@ -1,18 +1,6 @@
 .search__form {
-  position: absolute;
-  top: 0;
-  right: 15px;
-  width: 30px;
-  height: 30px;
-  transition: width linear 0.2s;
   display: flex;
-  align-items: center;  
+  align-items: center;
   overflow: hidden;
-  z-index: 10;
-  background-color: #F3F2F2;
+  min-height: 30px;
 }
-
-.search:hover .search__form {
-  width: 800px;
-}
-
