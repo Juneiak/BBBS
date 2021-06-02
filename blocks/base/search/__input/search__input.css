@@ -1,5 +1,4 @@
-.header__search-input {
-  display: none;
+.search__input {
   border: none;
   border-bottom: 1px solid #000000;
   outline: none;
@@ -11,13 +10,10 @@
   box-sizing: border-box;
   margin-left: 15px;
   background-color: #F3F2F2;
+  width: 0;
+  transition: width linear 0.2s;
 }
 
-.header__search-input:focus {
-  display: block;
+.search:hover .search__input {
+  width: 800px;
 }
-
-.header__form:hover .header__search-input {
-  display: block;
-}
-

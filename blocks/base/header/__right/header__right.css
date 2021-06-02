@@ -1,4 +1,4 @@
-.header__search {
+.header__right {
   display: flex;
   align-items: center;
   grid-area: right;
@@ -6,7 +6,7 @@
 
 
 @media screen and (max-width: 1200px) {
-  .header__search  {
+  .header__right  {
     grid-area: left;
   }
 }

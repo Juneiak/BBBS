@@ -1,6 +1,5 @@
-.header__search-button {
-  display: block;
-  background-image: url(../../../../images/header/search.svg);
+.search__button {
+  background-image: url(../../../..//images/header/search.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 20px;
@@ -10,9 +9,10 @@
   background-color: rgba(0, 0, 0, 0);
   padding: 0;
   transition: opacity 0.15s linear;
+  display: block;
 }
 
-.header__search-button:hover {
+.search__button:hover {
   opacity: 0.5;
   cursor: pointer;
 }
