@@ -1,10 +1,11 @@
-.ask__h2 {
+.ask__subtitle {
   margin-bottom: 24px;
   max-width: 650px;
+  text-align: start;
 }
 
 @media screen and (max-width: 1200px) {
-  .ask__h2 {
+  .ask__subtitle {
     margin-bottom: 20px;
   }
 }

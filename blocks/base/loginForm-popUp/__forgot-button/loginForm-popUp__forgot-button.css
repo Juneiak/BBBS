@@ -1,12 +1,7 @@
 .loginForm-popUp__forgot-button {
   align-self: start;
   border: none;
-  font-family: 'PTRootUIWebRegular';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.36;
-  letter-spacing: 0.2px;
+  padding: 0;
   color: #464646;
   text-decoration: none;
   background-color: rgba(0, 0, 0, 0);
@@ -14,10 +9,8 @@
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1200px) {
   .loginForm-popUp__forgot-button {
     margin-top: 10px;
-    font-size: 12px;
-    line-height: 1.42;
   }
 }

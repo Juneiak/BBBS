@@ -1,10 +1,6 @@
 .calendar-card__info-item {
   padding: 0 0 10px;
   margin: 0 0 10px;
-  font-size: 14px;
-  letter-spacing: 0.2px;
-  line-height: 19px;
-  font-family: PTRootUIWebRegular, Arial, Helvetica, sans-serif;
   border-bottom: 1px #A7A6A6 solid;
   box-sizing: border-box;
 }
@@ -16,8 +12,6 @@
 }
 @media screen and (max-width: 1200px)  {
   .calendar-card__info-item {
-    font-size: 12px;
-    line-height: 17px;
     padding: 0 0 5px;
     margin: 0 0 5px;
   }

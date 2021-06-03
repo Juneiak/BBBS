@@ -1,20 +1,8 @@
 .loginForm-popUp__answer {
   margin: 0 0 30px 0;
-  font-family: 'PTRootUIWebRegular';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 1.44;
   text-align: center;
   width: 100%
 }
 .loginForm-popUp__answer:last-child {
   margin: 0;
-}
-
-@media screen and (max-width: 400px) {
-  .loginForm-popUp__answer {
-    font-size: 15px;
-    line-height: 1.4;
-  }
 }

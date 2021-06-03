@@ -3,12 +3,15 @@
 
 /* page */
 @import url(../blocks/common/page/page.css);
-@import url(../blocks/common/page-title/page-title.css);
 
 /* content */
 @import url(../blocks/common/content/content.css);
-@import url(../blocks/common/content/__h2/content__h2.css);
-@import url(../blocks/common/content/__text/content__text.css);
+@import url(../blocks/common/title/title.css);
+@import url(../blocks/common/subtitle/subtitle.css);
+@import url(../blocks/common/text/text.css);
+@import url(../blocks/common/sign/sign.css);
+@import url(../blocks/common/tag-bottom/tag-bottom.css);
+@import url(../blocks/common/tag/tag.css);
 
 /* link-animation */
 @import url(../blocks/common/link-animation/link-animation.css);

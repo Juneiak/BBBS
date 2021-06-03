@@ -10,10 +10,13 @@
 @import url(../blocks/answersPage/answers/__text/answers__text.css);
 @import url(../blocks/answersPage/answers/__text/_open/answers__text_open.css);
 @import url(../blocks/answersPage/answers/__rubrics/answers__rubrics.css);
+@import url(../blocks/answersPage/answers/__card-subtitle/answers__card-subtitle.css);
 
-/* answers */
+
+/* ask */
 @import url(../blocks/answersPage/ask/ask.css);
 @import url(../blocks/answersPage/ask/__h2/ask__h2.css);
 @import url(../blocks/answersPage/ask/__form/ask__form.css);
 @import url(../blocks/answersPage/ask/__input/ask__input.css);
 @import url(../blocks/answersPage/ask/__button/ask__button.css);
+@import url(../blocks/answersPage/ask/__subtitle/ask__subtitle.css);
