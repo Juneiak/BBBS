@@ -1,0 +1,28 @@
+/* articles */
+@import url(../blocks/articles/articles.css);
+@import url(../blocks/articles/__list/artiсles__list.css);
+@import url(../blocks/articles/__article/artiles__article.css);
+
+/* major-article */
+@import url(../blocks/major-article/major-article.css);
+@import url(../blocks/major-article/__about/major-article__about.css);
+@import url(../blocks/major-article/__author/major-article__author.css);
+@import url(../blocks/major-article/__bottom/major-article__bottom.css);
+@import url(../blocks/major-article/__content/major-article__content.css);
+@import url(../blocks/major-article/__header/major-article__header.css);
+@import url(../blocks/major-article/__photo/major-article__photo.css);
+@import url(../blocks/major-article/__sign/major-article__sign.css);
+@import url(../blocks/major-article/__subtitle/major-article__subtitle.css);
+@import url(../blocks/major-article/__tag/major-article__tag.css);
+@import url(../blocks/major-article/__tags-list/major-article__tags-list.css);
+
+/* minor-article */
+@import url(../blocks/minor-article/minor-article.css);
+@import url(../blocks/minor-article/__tags-list/minor-article__tags-list.css);
+@import url(../blocks/minor-article/__tag/minor-article__tag.css);
+@import url(../blocks/minor-article/__subtitle/minor-article__subtitle.css);
+@import url(../blocks/minor-article/__sign/minor-article__sign.css);
+@import url(../blocks/minor-article/__header/minor-article__header.css);
+@import url(../blocks/minor-article/__content/minor-article__content.css);
+@import url(../blocks/minor-article/__author/minor-article__author.css);
+@import url(../blocks/minor-article/__about/minor-article__about.css);

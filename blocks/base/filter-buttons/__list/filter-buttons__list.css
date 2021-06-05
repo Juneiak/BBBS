@@ -1,12 +1,13 @@
 .filter-buttons__list {
   margin: 0;
   padding: 0;
+  padding-bottom: 15px;
   display: flex;
   align-items: center;
-  padding-bottom: 15px;
-  width: 100%;
+  justify-content: start;
   flex-wrap: wrap;
-  justify-content: center;
+  overflow: auto;
+  max-width: 1024px;
 }
 
 .filter-buttons__list:last-child {
@@ -16,6 +17,6 @@
 @media screen and (max-width: 1200px) {
   .filter-buttons__list {
     padding-bottom: 10px;
+    flex-wrap: nowrap; 
   }
 }
-
