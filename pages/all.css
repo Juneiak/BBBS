@@ -15,6 +15,12 @@
 @import url(../blocks/major-article/__subtitle/major-article__subtitle.css);
 @import url(../blocks/major-article/__tag/major-article__tag.css);
 @import url(../blocks/major-article/__tags-list/major-article__tags-list.css);
+@import url(../blocks/major-article/__description/major-article__description.css);
+@import url(../blocks/major-article/__header/_color/major-article__header_color_blue.css);
+@import url(../blocks/major-article/__header/_color/major-article__header_color_green.css);
+@import url(../blocks/major-article/__header/_color/major-article__header_color_red.css);
+@import url(../blocks/major-article/__header/_color/major-article__header_color_yellow.css);
+
 
 /* minor-article */
 @import url(../blocks/minor-article/minor-article.css);
@@ -26,3 +32,8 @@
 @import url(../blocks/minor-article/__content/minor-article__content.css);
 @import url(../blocks/minor-article/__author/minor-article__author.css);
 @import url(../blocks/minor-article/__about/minor-article__about.css);
+@import url(../blocks/minor-article/__description/minor-article__description.css);
+@import url(../blocks/minor-article/__header/_color/minor-article__header_color_blue.css);
+@import url(../blocks/minor-article/__header/_color/minor-article__header_color_green.css);
+@import url(../blocks/minor-article/__header/_color/minor-article__header_color_red.css);
+@import url(../blocks/minor-article/__header/_color/minor-article__header_color_yellow.css);

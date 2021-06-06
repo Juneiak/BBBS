@@ -1,0 +1,23 @@
+.minor-article__description {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  padding: 30px;
+  height: 100%;
+  width: 100%;
+  max-width: 570px;
+  min-width: 290px;
+  max-height: 224px;
+  min-height: 224px;
+  background-color: #fff;
+  border-radius: 30px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1200px) {
+  .minor-article__description {
+    padding: 30px 15px;
+    min-height: 176px;
+  }
+}
+
