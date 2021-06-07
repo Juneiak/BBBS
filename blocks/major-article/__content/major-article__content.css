@@ -1,3 +1,14 @@
 .major-article__content {
-  
+  overflow: auto;
+}
+
+.major-article__content::-webkit-scrollbar {
+  width: 7px;
+}
+
+.major-article__content::-webkit-scrollbar-thumb {
+  width: 5px;
+  height: 30px;
+  background-color: #E8E6E6;
+  border-radius: 5px;
 }

@@ -1,3 +1,28 @@
 .major-article__header {
-  
+  background: #F8D162;
+  border-radius: 30px;
+  max-height: 629px;
+  min-height: 629px;
+  max-width: 1185px;
+  min-width: 290px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px 30px;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1200px) {
+  .major-article__header {
+    min-height: 537px;
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .major-article__header {
+    min-height: 333px;
+  }
 }

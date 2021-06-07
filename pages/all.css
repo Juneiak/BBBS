@@ -1,7 +1,8 @@
 /* articles */
 @import url(../blocks/articles/articles.css);
 @import url(../blocks/articles/__list/artiсles__list.css);
-@import url(../blocks/articles/__article/artiles__article.css);
+@import url(../blocks/articles/__minor-article/articles__minor-article.css);
+@import url(../blocks/articles/__major-article/articles__major-article.css);
 
 /* major-article */
 @import url(../blocks/major-article/major-article.css);

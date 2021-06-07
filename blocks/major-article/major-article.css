@@ -1,3 +1,17 @@
 .major-article {
-  
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+}
+
+@media screen and (max-width: 1500px) {
+  .major-article {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .major-article {
+    grid-template-columns: 1fr;
+  }
 }
